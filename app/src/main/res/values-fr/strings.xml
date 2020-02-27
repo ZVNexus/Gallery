@@ -5,8 +5,6 @@
     <string name="edit">Modifier</string>
     <string name="open_camera">Ouvrir l\'appareil photo</string>
     <string name="hidden">(caché)</string>
-    <string name="excluded">(exclu)</string>
-    <string name="pin_folder">Épingler le dossier</string>
     <string name="unpin_folder">Désépingler le dossier</string>
     <string name="pin_to_the_top">Épingler en haut</string>
     <string name="show_all">Affichage \"Tous les dossiers\"</string>
@@ -22,8 +20,6 @@
     <string name="use_default">Image par défaut</string>
     <string name="volume">Volume</string>
     <string name="brightness">Luminosité</string>
-    <string name="lock_orientation">Verrouiller la rotation</string>
-    <string name="unlock_orientation">Déverrouiller la rotation</string>
     <string name="change_orientation">Orientation</string>
     <string name="force_portrait">Forcer la vue portrait</string>
     <string name="force_landscape">Forcer la vue paysage</string>
@@ -32,7 +28,6 @@
     <string name="fixing">Correction en cours…</string>
     <string name="dates_fixed_successfully">Dates corrigées</string>
     <string name="no_date_takens_found">No Date Taken values have been found</string>
-    <string name="share_resized">Partager une version redimensionnée</string>
     <string name="upgraded_from_free">Hé,\n\nvous avez apparemment fait une mise à niveau à partir de l\'ancienne application gratuite. Vous pouvez maintenant désinstaller l\'ancienne version avec le bouton \'Mettre à niveau vers Pro\' en haut des paramètres de l\'application.\n\nVos éléments de la corbeille seront supprimés, les éléments favoris seront non marqués et vous devrez également restaurer les paramètres de votre application.\n\nMerci !</string>
     <string name="switch_to_file_search">Basculer vers la recherche de fichiers</string>
 
@@ -55,8 +50,6 @@
     <string name="exclude_folder_description">Cela va exclure la sélection ainsi que ses sous-dossiers depuis Simple Gallery uniquement. Vous pouvez gérer les dossiers exclus depuis les paramètres.</string>
     <string name="exclude_folder_parent">Exclure un dossier parent ?</string>
     <string name="excluded_activity_placeholder">Exclure des dossiers les cachera ainsi que leurs sous-dossiers uniquement dans Simple Gallery, ils seront toujours visibles depuis d\'autres applications.\n\nSi vous voulez aussi les cacher ailleurs, utilisez la fonction \"Cacher\".</string>
-    <string name="remove_all">Tout supprimer</string>
-    <string name="remove_all_description">Supprimer tous les dossiers de la liste des exclusions ? Cela n\'effacera pas les dossiers.</string>
     <string name="hidden_folders">Dossiers cachés</string>
     <string name="manage_hidden_folders">Gérer les dossiers cachés</string>
     <string name="hidden_folders_placeholder">Il semblerait que vous n\'ayez pas de dossier caché avec un fichier \".nomedia\".</string>
@@ -85,14 +78,10 @@
     <string name="image_editing_failed">L\'édition de l\'image a échoué</string>
     <string name="image_editing_cancelled">Image editing cancelled</string>
     <string name="file_edited_successfully">L\'image a été éditée avec succès</string>
-    <string name="edit_image_with">Modifier l\'image avec:</string>
-    <string name="no_editor_found">Aucun éditeur d\'image trouvé</string>
     <string name="unknown_file_location">Emplacement du fichier inconnu</string>
-    <string name="error_saving_file">Impossible de remplacer le fichier source</string>
     <string name="rotate_left">Pivoter à gauche</string>
     <string name="rotate_right">Pivoter à droite</string>
     <string name="rotate_one_eighty">Pivoter à 180º</string>
-    <string name="flip">Retourner</string>
     <string name="flip_horizontally">Retourner horizontalement</string>
     <string name="flip_vertically">Retourner verticalement</string>
     <string name="free_aspect_ratio">Libre</string>                   <!-- available as an option: 1:1, 4:3, 16:9, free -->
@@ -100,13 +89,8 @@
 
     <!-- Set wallpaper -->
     <string name="simple_wallpaper">Fond d\'écran simple</string>
-    <string name="set_as_wallpaper">Définir comme fond d\'écran</string>
-    <string name="set_as_wallpaper_failed">Échec de la définition en tant que fond d\'écran</string>
-    <string name="set_as_wallpaper_with">Définir comme fond d\'écran avec:</string>
     <string name="setting_wallpaper">Définition du fond d\'écran en cours…</string>
     <string name="wallpaper_set_successfully">Fond d\'écran défini</string>
-    <string name="portrait_aspect_ratio">Rapport d\'affichage portrait</string>
-    <string name="landscape_aspect_ratio">Rapport d\'affichage paysage</string>
     <string name="home_screen">Écran d\'accueil</string>
     <string name="lock_screen">Écran de déverrouillage</string>
     <string name="home_and_lock_screen">Écran d\'accueil et écran de déverrouillage</string>
@@ -114,7 +98,6 @@
     <!-- Slideshow -->
     <string name="slideshow">Diaporama</string>
     <string name="interval">Intervalle (secondes):</string>
-    <string name="include_photos">Inclure les images</string>
     <string name="include_videos">Inclure les vidéos</string>
     <string name="include_gifs">Inclure les GIFs</string>
     <string name="random_order">Ordre aléatoire</string>
@@ -137,10 +120,8 @@
     <string name="group_by">Grouper par</string>
     <string name="do_not_group_files">Ne pas grouper les fichiers</string>
     <string name="by_folder">Dossier</string>
-    <string name="by_last_modified">Date de modification</string>
     <string name="by_last_modified_daily">Date de modification (par jour)</string>
     <string name="by_last_modified_monthly">Date de modification (par mois)</string>
-    <string name="by_date_taken">Date de prise de vue</string>
     <string name="by_date_taken_daily">Date de prise de vue (par jour)</string>
     <string name="by_date_taken_monthly">Date de prise de vue (par mois)</string>
     <string name="by_file_type">Type de fichier</string>
@@ -173,7 +154,6 @@
     <string name="show_media_count">Afficher le nombre de fichiers des dossiers</string>
     <string name="show_extended_details">Afficher les informations supplémentaires du média en plein écran</string>
     <string name="manage_extended_details">Gérer les informations supplémentaires</string>
-    <string name="one_finger_zoom">Activer les zoom à un doigt sur les images en plein écran</string>
     <string name="allow_instant_change">Appuyer sur les cotés de l\'écran pour changer instantanément de média</string>
     <string name="allow_deep_zooming_images">Activer les options de zoom avancées</string>
     <string name="hide_extended_details">Cacher les informations supplémentaires si la barre d\'état est masquée</string>
@@ -317,62 +297,7 @@
 
     <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Photo Manager &amp; Editor</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro is a highly customizable offline gallery. Organize &amp; edit your photos, recover deleted files with the recycle bin, protect &amp; hide files and view a huge variety of different photo &amp; video formats including RAW, SVG and much more.
-
-        The app contains no ads and unnecessary permissions. As the app doesn’t require internet access either, your privacy is protected.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FEATURES</b>
-        -------------------------------------------------
-
-        • Offline gallery with no ads or popups
-        • Simple gallery photo editor – crop, rotate, resize, draw, filters &amp; more
-        • No internet access needed, giving you more privacy and security
-        • No unnecessary permissions required
-        • Quickly search images, videos &amp; files
-        • Open &amp; view many different photo and video types (RAW, SVG, panoramic etc)
-        • A variety of intuitive gestures to easily edit &amp; organize files
-        • Lots of ways to filter, group &amp; sort files
-        • Customize the appearance of Simple Gallery Pro
-        • Available in 32 languages
-        • Mark files as favorites for quick access
-        • Protect your photos &amp; videos with a pattern, pin or fingerprint
-        • Use pin, pattern &amp; fingerprint to protect the app launch or specific functions too
-        • Recover deleted photos &amp; videos from the recycle bin
-        • Toggle visibility of files to hide photos &amp; videos
-        • Create a customizable slideshow of your files
-        • View detailed information of your files (resolution, EXIF values etc)
-        • Simple Gallery Pro is open source
-        … and much much more!
-
-        <b>PHOTO GALLERY EDITOR</b>
-        Simple Gallery Pro makes it easy to edit your pictures on the fly. Crop, flip, rotate and resize your pictures. If you’re feeling a little more creative you can add filters and draw on your pictures!
-
-        <b>SUPPORT FOR MANY FILE TYPES</b>
-        Unlike some other gallery viewers &amp; photo organizers, Simple Gallery Pro supports a huge range of different file types including JPEG, PNG, MP4, MKV, RAW, SVG, Panoramic photos, Panoramic videos and many more.
-
-        <b>HIGHLY CUSTOMIZABLE GALLERY MANAGER</b>
-        From the UI to the function buttons on the bottom toolbar, Simple Gallery Pro is highly customizable and works the way you want it to. No other gallery manager has this kind of flexibility! Thanks to being open source, we’re also available in 32 languages!
-
-        <b>RECOVER DELETED PHOTOS &amp; VIDEOS</b>
-        Accidentally deleted a precious photo or video? Don’t worry! Simple Gallery Pro features a handy recycle bin where you can recover deleted photos &amp; videos easily.
-
-        <b>PROTECT &amp; HIDE PHOTOS, VIDEOS &amp; FILES</b>
-        Using pin, pattern or your device’s fingerprint scanner you can protect and hide photos, videos &amp; entire albums. You can protect the app itself or place locks on specific functions of the app. For example, you can’t delete a file without a fingerprint scan, helping to protect your files from accidental deletion.
-
-        <b>Check out the full suite of Simple Tools here:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-      </string>
 
     <!--
         Haven't found some strings? There's more at

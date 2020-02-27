@@ -5,8 +5,6 @@
     <string name="edit">Редактировать</string>
     <string name="open_camera">Камера</string>
     <string name="hidden">(скрыто)</string>
-    <string name="excluded">(исключено)</string>
-    <string name="pin_folder">Закрепить папку</string>
     <string name="unpin_folder">Открепить папку</string>
     <string name="pin_to_the_top">Закрепить сверху</string>
     <string name="show_all">Показать все медиафайлы</string>
@@ -22,8 +20,6 @@
     <string name="use_default">Использовать по умолчанию</string>
     <string name="volume">Громкость</string>
     <string name="brightness">Яркость</string>
-    <string name="lock_orientation">Заблокировать ориентацию</string>
-    <string name="unlock_orientation">Разблокировать ориентацию</string>
     <string name="change_orientation">Изменение ориентации</string>
     <string name="force_portrait">Портретная</string>
     <string name="force_landscape">Альбомная</string>
@@ -32,7 +28,6 @@
     <string name="fixing">Исправление…</string>
     <string name="dates_fixed_successfully">Даты исправлены</string>
     <string name="no_date_takens_found">Дата съёмки не найдена</string>
-    <string name="share_resized">Поделиться изменённой версией</string>
     <string name="upgraded_from_free">Привет,\n\nпохоже, что вы обновились со старого бесплатного приложения. Теперь вы можете удалить старую версию, которая содержит кнопку \"Обновить до Pro\" в верхней части настроек приложения.\n\nБудет очищена корзина, сняты отметки избранного, а также вам придётся сбросить настройки приложения.\n\nСпасибо!</string>
     <string name="switch_to_file_search">Переключиться на поиск файлов по всем видимым папкам</string>
 
@@ -55,8 +50,6 @@
     <string name="exclude_folder_description">Эта функция исключит выбранные папки вместе с подпапками только для Simple Gallery. Можно управлять исключёнными папками из настроек.</string>
     <string name="exclude_folder_parent">Исключить только родительскую папку?</string>
     <string name="excluded_activity_placeholder">Исключая папки, вы сделаете их скрытыми вместе с подпапками в Simple Gallery, но они будут видны в других приложениях. Если вы хотите скрыть их и в других приложениях, используйте функцию \"Скрыть\".</string>
-    <string name="remove_all">Удалить всё</string>
-    <string name="remove_all_description">Очистить список исключённых папок? Сами папки не будут удалены.</string>
     <string name="hidden_folders">Скрытые папки</string>
     <string name="manage_hidden_folders">Управление скрытыми папками</string>
     <string name="hidden_folders_placeholder">Похоже, у вас нет папок, скрытых файлом \".nomedia\".</string>
@@ -85,14 +78,10 @@
     <string name="image_editing_failed">Редактирование изображения не выполнено</string>
     <string name="image_editing_cancelled">Редактирование изображения отменено</string>
     <string name="file_edited_successfully">Файл успешно отредактирован</string>
-    <string name="edit_image_with">Редактировать изображение в:</string>
-    <string name="no_editor_found">Не найдено ни одного редактора изображений</string>
     <string name="unknown_file_location">Неизвестное местоположение файла</string>
-    <string name="error_saving_file">Не удалось перезаписать исходный файл</string>
     <string name="rotate_left">Повернуть влево</string>
     <string name="rotate_right">Повернуть вправо</string>
     <string name="rotate_one_eighty">Перевернуть на 180°</string>
-    <string name="flip">Отразить</string>
     <string name="flip_horizontally">По горизонтали</string>
     <string name="flip_vertically">По вертикали</string>
     <string name="free_aspect_ratio">Свободно</string>               <!-- available as an option: 1:1, 4:3, 16:9, free -->
@@ -100,13 +89,8 @@
 
     <!-- Set wallpaper -->
     <string name="simple_wallpaper">Простые обои</string>
-    <string name="set_as_wallpaper">Установить в качестве обоев</string>
-    <string name="set_as_wallpaper_failed">Не удалось установить</string>
-    <string name="set_as_wallpaper_with">Установить в качестве обоев с помощью</string>
     <string name="setting_wallpaper">Установка обоев…</string>
     <string name="wallpaper_set_successfully">Обои установлены</string>
-    <string name="portrait_aspect_ratio">Портретная ориентация</string>
-    <string name="landscape_aspect_ratio">Альбомная ориентация</string>
     <string name="home_screen">Домашний экран</string>
     <string name="lock_screen">Экран блокировки</string>
     <string name="home_and_lock_screen">Домашний экран и экран блокировки</string>
@@ -114,7 +98,6 @@
     <!-- Slideshow -->
     <string name="slideshow">Слайдшоу</string>
     <string name="interval">Интервал (в секундах):</string>
-    <string name="include_photos">Изображения</string>
     <string name="include_videos">Видео</string>
     <string name="include_gifs">GIF</string>
     <string name="random_order">В случайном порядке</string>
@@ -137,10 +120,8 @@
     <string name="group_by">Группировать по…</string>
     <string name="do_not_group_files">Не группировать</string>
     <string name="by_folder">Папка</string>
-    <string name="by_last_modified">Последнее изменение</string>
     <string name="by_last_modified_daily">Последнее изменение (по дням)</string>
     <string name="by_last_modified_monthly">Последнее изменение (по месяцам)</string>
-    <string name="by_date_taken">Дата съёмки</string>
     <string name="by_date_taken_daily">Дата съёмки (по дням)</string>
     <string name="by_date_taken_monthly">Дата съёмки (по месяцам)</string>
     <string name="by_file_type">Тип файла</string>
@@ -173,7 +154,6 @@
     <string name="show_media_count">Показывать количество файлов в папках</string>
     <string name="show_extended_details">Показывать сведения о файле</string>
     <string name="manage_extended_details">Выбор сведений о файле</string>
-    <string name="one_finger_zoom">Масштабирование одним пальцем при просмотре изображения</string>
     <string name="allow_instant_change">Переключение медиафайлов нажатием по краю экрана</string>
     <string name="allow_deep_zooming_images">Включить полное масштабирование</string>
     <string name="hide_extended_details">Скрывать сведения о файле при скрытой строке состояния</string>
@@ -319,62 +299,7 @@
 
     <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Галерея Pro - управление изображениями</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Просматривайте свои воспоминания без перерывов с этой фото- и видеогалереей</string>
-    <string name="app_long_description">
-        Simple Gallery Pro — настраиваемая автономная галерея. Организуйте и редактируйте свои фотографии; восстанавливайте удалённые файлы при помощи функции "корзина"; защищайте и скрывайте личные файлы; просматривайте множество различных фото- и видеоформатов, включая RAW, SVG и многие другие.
-
-        Приложение не содержит рекламы и ненужных разрешений. Поскольку приложение не требует доступа в интернет, ваша конфиденциальность защищена.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – ВОЗМОЖНОСТИ</b>
-        -------------------------------------------------
-
-        • Автономная галерея без рекламы или всплывающих окон
-        • Встроенный редактор изображение - обрезка, поворот, изменение размера, рисование, фильтры и другое
-        • Не требуется доступ в интернет, что даёт вам больше конфиденциальности и защищённости
-        • Не требуется никаких ненужных разрешений
-        • Быстрый поиск изображений, видео и файлов
-        • Открывает множество различных типов изображений и видео (RAW, SVG, панорамы и т.д.)
-        • Различные интуитивно понятные жесты, чтобы легко редактировать и организовывать файлы
-        • Множество способов фильтрации, группировки и сортировки файлов
-        • Настройка внешнего вида в Simple Gallery Pro
-        • Доступна на 32 языках
-        • Пометка файлов как избранных для быстрого доступа
-        • Защищает ваши фотографии и видео с помощью графического ключа, PIN-кода или отпечатка пальца
-        • Также можно использовать ключ, PIN или отпечаток для защиты запуска приложения или конкретных функций
-        • Восстановление удалённых фотографий и видео из корзины
-        • Переключение видимости файлов для скрытия фотографий и видео
-        • Создание настраиваемых слайдшоу из ваших файлов
-        • Просмотр подробной информации о файлах (разрешение, значения EXIF и т.д.)
-        • Simple Gallery Pro с открытым исходным кодом
-        … и многое многое другое!
-
-        <b>РЕДАКТОР ИЗОБРАЖЕНИЙ</b>
-        Simple Gallery Pro позволяет легко редактировать изображения на ходу. Можно обрезать, перевернуть, повернуть и изменить размер ваших фотографий. Если вы чувствуете себя немного более творчески, то можете добавить фильтры и рисовать на своих фотографиях!
-
-        <b>ПОДДЕРЖКА МНОЖЕСТВА ТИПОВ ФАЙЛОВ</b>
-        В отличие от некоторых других галерей и организаторов изображений, Simple Gallery Pro поддерживает огромный набор различных типов файлов, включая JPEG, PNG, MP4, MKV, RAW, SVG, панорамные фотографии, панорамные видео и многие другие.
-
-        <b>НАСТРАИВАЕМЫЙ МЕНЕДЖЕР ГАЛЕРЕИ</b>
-        От пользовательского интерфейса до функциональных кнопок на нижней панели инструментов, Simple Gallery Pro отличается высокой настраиваемостью и работает так, как вы хотите. Никакой другой менеджер галереи не обладает такой гибкостью! Благодаря открытому исходному коду, мы также доступны на 32 языках!
-
-        <b>ВОССТАНОВЛЕНИЕ УДАЛЁННЫХ ФОТОГРАФИЙ И ВИДЕО</b>
-        Случайно удалили драгоценное фото или видео? Не беспокойтесь! Simple Gallery Pro предлагает удобную корзину, из которой можно легко восстановить удалённые фотографии и видео.
-
-        <b>ЗАЩИТА И СКРЫТИЕ ФОТОГРАФИЙ, ВИДЕО И ФАЙЛОВ</b>
-        Используя PIN-код, графический ключ или сканер отпечатков пальцев своего устройства, вы можете защитить и скрыть фотографии, видео и целые альбомы. Вы можете защитить как всё приложение, так и заблокировать отдельные его функции. Например, вы не сможете удалить файл без подтверждения отпечатком пальца, что поможет защитить файлы от случайного удаления.
-
-        <b>Ознакомьтесь с полным набором инструментов серии Simple здесь:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
 
     <!--
         Haven't found some strings? There's more at

@@ -5,8 +5,6 @@
     <string name="edit">تعديل</string>
     <string name="open_camera">فتح الكاميرا</string>
     <string name="hidden">(مخفي)</string>
-    <string name="excluded">(مستبعد)</string>
-    <string name="pin_folder">تثبيت المجلد</string>
     <string name="unpin_folder">إلغاء تثبيت المجلد</string>
     <string name="pin_to_the_top">تثبيت في الأعلى</string>
     <string name="show_all">إظهار كل محتويات المجلدات</string>
@@ -22,8 +20,6 @@
     <string name="use_default">إستخدام كإفتراضي</string>
     <string name="volume">الصوت</string>
     <string name="brightness">السبوع</string>
-    <string name="lock_orientation">قفل الاتجاه</string>
-    <string name="unlock_orientation">فتح الاتجاه</string>
     <string name="change_orientation">تغيير الاتجاه</string>
     <string name="force_portrait">فرض الإتجاه العمودي</string>
     <string name="force_landscape">فرض الإتجاه الأفقي</string>
@@ -32,7 +28,6 @@
     <string name="fixing">جارٍ الإصلاح…</string>
     <string name="dates_fixed_successfully">تم إصلاح التواريخ بنجاح</string>
     <string name="no_date_takens_found">No Date Taken values have been found</string>
-    <string name="share_resized">مشاركة الصورة الذي تم تغيير حجمها</string>
     <string name="upgraded_from_free">مرحباً,\n\nيبدو أنك قمت بترقية التطبيق المجاني القديم. يمكنك الآن إلغاء تثبيت الإصدار القديم، الذي يحتوي على زر \'الترقية إلى Pro\' في أعلي إعدادات التطبيق.\n\nسيتم حذف عناصر سلة المحذوفات فقط، كما سيتم حذف العناصر المفضلة، كما سيتعين عليك إعادة ضبط إعدادات التطبيق .\n\nشكراً!</string>
     <string name="switch_to_file_search">التبديل إلي البحث فى الملفات عبر كافة المجلدات المرئية</string>
 
@@ -55,8 +50,6 @@
     <string name="exclude_folder_description">سيؤدي ذلك الي إستبعاد التحديد مع المجلدات الفرعية من "الاستديو" فقط.. يمكنك إدارة المجلدات المستبعدة في الإعدادات.</string>
     <string name="exclude_folder_parent">إستبعاد المجلد الأصل بدلاً  من ذلك(المحدد)؟</string>
     <string name="excluded_activity_placeholder">سيؤدي إستبعاد المجلدات الي جعلها مع المجلدات الفرعية مخفية  في "الاستديو" فقط, وستظل مرئية في تطبيقات أخرى. \n\nإذا كنت تريد إخفاءها من التطبيقات الأخرى أيضاً ، فاستخدم وظيفة الإخفاء.</string>
-    <string name="remove_all">إزالة الكل</string>
-    <string name="remove_all_description">هل تريد إزالة كافة المجلدات من قائمة  المجلدات المستبعدة ؟ لن يؤدي هذا إلي حذف المجلدات.</string>
     <string name="hidden_folders">المجلدات المخفية</string>
     <string name="manage_hidden_folders">إدارة المجلدات المخفية</string>
     <string name="hidden_folders_placeholder">يبدو أنه لا توجد لديك أي مجلدات مخفية بملف \".nomedia\".</string>
@@ -85,14 +78,10 @@
     <string name="image_editing_failed">فشل تعديل الصورة</string>
     <string name="image_editing_cancelled">Image editing cancelled</string>
     <string name="file_edited_successfully">File edited successfully</string>
-    <string name="edit_image_with">تعديل الصورة باستخدام:</string>
-    <string name="no_editor_found">لم يتم العثور على أي محرر للصور</string>
     <string name="unknown_file_location">موقع الملف غير معروف</string>
-    <string name="error_saving_file">لا يمكن إستبدال الملف الأصل</string>
     <string name="rotate_left">تدوير لليسار</string>
     <string name="rotate_right">تدوير لليمين</string>
     <string name="rotate_one_eighty">تدوير بزاوية 180º</string>
-    <string name="flip">انعكاس</string>
     <string name="flip_horizontally">انعكاس أفقياً</string>
     <string name="flip_vertically">انعكاس عمودياً</string>
     <string name="free_aspect_ratio">حر</string>                  <!-- available as an option: 1:1, 4:3, 16:9, free -->
@@ -100,13 +89,8 @@
 
     <!-- Set wallpaper -->
     <string name="simple_wallpaper">خلفية بسيطة</string>
-    <string name="set_as_wallpaper">تعيين كخلفية</string>
-    <string name="set_as_wallpaper_failed">فشل التعيين كخلفية</string>
-    <string name="set_as_wallpaper_with">تعيين كخلفية باستخدام:</string>
     <string name="setting_wallpaper">جارٍ تعيين الخلفية…</string>
     <string name="wallpaper_set_successfully">تم تعيين الخلفية بنجاح</string>
-    <string name="portrait_aspect_ratio">نسبة الأبعاد العمودية</string>
-    <string name="landscape_aspect_ratio">نسبة الأبعاد الأفقية</string>
     <string name="home_screen">الشاشة الرئيسية</string>
     <string name="lock_screen">شاشة القفل</string>
     <string name="home_and_lock_screen">الشاشة الرئيسية وشاشة القفل</string>
@@ -114,7 +98,6 @@
     <!-- Slideshow -->
     <string name="slideshow">عرض الشرائح</string>
     <string name="interval">الفاصل الزمني (بالثواني):</string>
-    <string name="include_photos">تضمين الصور</string>
     <string name="include_videos">تضمين مقاطع الفيديو</string>
     <string name="include_gifs">تضمين الصور المتحركة (Gif)</string>
     <string name="random_order">ترتيب عشوائي</string>
@@ -137,10 +120,8 @@
     <string name="group_by">تجميع حسب</string>
     <string name="do_not_group_files">عدم تجميع الملفات</string>
     <string name="by_folder">المجلد</string>
-    <string name="by_last_modified">آخر تعديل</string>
     <string name="by_last_modified_daily">آخر تعديل (يومياً)</string>
     <string name="by_last_modified_monthly">آخر تعديل (شهرياً)</string>
-    <string name="by_date_taken">تاريخ الإلتقاط</string>
     <string name="by_date_taken_daily">تاريخ الإلتقاط (يومياً)</string>
     <string name="by_date_taken_monthly">آخر تعديل (شهرياً)</string>
     <string name="by_file_type">نوع الملف</string>
@@ -173,7 +154,6 @@
     <string name="show_media_count">إظهار عدد وسائط المجلد في العرض الرئيسي</string>
     <string name="show_extended_details">إظهار التفاصيل الموسعة عبر وسائط ملء الشاشة</string>
     <string name="manage_extended_details">إدارة التفاصيل الموسعة</string>
-    <string name="one_finger_zoom">السماح بتكبير الوسائط بأصبع واحد في وضع ملء الشاشة</string>
     <string name="allow_instant_change">السماح بتغيير الوسائط علي الفور من خلال النقر علي جوانب الشاشة</string>
     <string name="allow_deep_zooming_images">السماح بالتكبير العميق للصور</string>
     <string name="hide_extended_details">إخفاء التفاصيل الموسعة عند إخفاء شريط الحالة</string>
@@ -317,66 +297,7 @@
 
     <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">المعرض البسيط الـ Pro - محرر ومدير الصور</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        (تطبيق المعرض البسيط الـ Pro)  هو معرض بدون إنترنت قابل للتخصيص بدرجة كبيرة يتمتع بتنظيم الصور وتحريرها وإستعادة الملفات المحذوفة من خلال "سلة المحذوفات" وحماية الملفات وإخفاؤها وعرض مجموعة كبيرة من تنسيقات الصور والفيديو المختلفة بما في ذلك تنسيقات RAW و SVG وغير ذلك الكثير.
-
-        لا يحتوي التطبيق على إعلانات وأذونات غير ضرورية. نظراً لأن التطبيق لا يتطلب الوصول إلى الإنترنت أيضاً ، فإن خصوصيتك محمية.
-
-        -------------------------------------------------
-        <b>المعرض البسيط الـ Pro - الميزات</b>
-        -------------------------------------------------
-
-     معرض بدون إنترنت بدون إعلانات أو نوافذ منبثقة
-        • محرر صور (معرض البسيط) - قص، تدوير، تغيير حجم، رسم، فلاتر وغير ذلك
-        • لا حاجة للوصول إلى الإنترنت، مما يمنحك المزيد من الخصوصية والأمان
-
-        • لا توجد أذونات غير ضرورية مطلوبة
-        • البحث بسرعة عن الصور ومقاطع الفيديو والملفات
-        • فتح وعرض العديد من أنواع مختلفة من الصور والفيديو (RAW ، SVG ، بانورامية الخ)
-        • مجموعة متنوعة من الإيماءات البسيطة لتحرير الملفات وتنظيمها بسهولة
-        • الكثير من الطرق لفلترة الملفات وتجميعها وفرزها
-        • تخصيص مظهر للتطبيق
-        • متوفر بـ ٣٢ لغة
-        • وضع علامة علي الملفات كمفضلة للوصول السريع
-        • تمتع بحماية صورك ومقاطع الفيديو باستخدام نمط أو رمز PIN أو بصمة إصبع
-        • أستخدم رمز الـ PIN والنقش وبصمة الاصبع لحماية تشغيل التطبيق أو وظائف معينة أيضاً
-        • إستعادة الصور ومقاطع الفيديو المحذوفة من "سلة المحذوفات"
-        • تبديل  رؤية الملفات لإخفاء الصور ومقاطع الفيديو
-        • إنشاء عرض شرائح قابل للتخصيص لملفاتك
-        • عرض معلومات تفصيلية لملفاتك (دقة الوضوح، قيم EXIF، إلخ)
-        • تطبيق المعرض هو مصدر مفتوح
-        … والكثير الكثير!
-        <b>محرر معرض الصور</b>
-        يساعد (تطبيق المعرض البسيط الـ Pro ) على تسهيل تحرير الصور بسرعة فائقة. قص الصور وقلبها وتدويرها وتغيير حجمها.  إذا كنت تشعر بقدر أكبر من الإبداع، يمكنك إضافة الفلاتر والرسم على صورك!
-
-
-        <b>يدعم العديد من انواع الملفات</b>
-        على عكس بعض تطبيقات معرض الصور الأخري ومنظمي الصور ، يدعم (تطبيق المعرض البسيط الـ Pro )مجموعة كبيرة من أنواع الملفات المختلفة بما في ذلك  JPEG و PNG و MP4 و MKV و RAW و SVG والصور البانورامية ومقاطع الفيديو البانورامية وغيرها الكثير.
-
-        <b>مدير معرض الصور القابل للتخصيص بدرجة كبيرة</b>
-        بدءاً من واجهة المستخدم وحتى أزرار الوظائف الموجودة على شريط الأدوات السفلي، يتسم (تطبيق المعرض البسيط الـ Pro ) بأنه قابل للتخصيص بدرجة كبيرة ويعمل بالطريقة التي تريدها في الإستخدام. لا يوجد أي مدير معرض آخر يتمتع بهذا النوع من المرونة! بفضل كونه مفتوح المصدر ، نحن متاحون أيضاً بـ 32 لغة!
-
-        <b>إسترداد الصور ومقاطع الفيديو المحذوفة</b>
-        حذف صورة أو فيديو ثمين عن طريق الخطأ لا تقلق نظراً لأن(تطبيق المعرض البسيط الـ Pro) يتميز بسلة محذوفات سهلة الاستخدام يمكنك من خلالها إسترداد الصور ومقاطع الفيديو المحذوفة بسهولة.
-
-        <b>حماية وإخفاء الصور والفيديوهات والملفات</b>
-        باستخدام رمز الـ PIN أو النمط أو الماسح الضوئي لبصمة الاصبع لجهازك يمكنك حماية الصور ومقاطع الفيديو والألبومات بأكملها وإخفائها. يمكنك حماية التطبيق نفسه أو وضع قفل الأمان علي وظائف معينة للتطبيق علي سبيل المثال، لا يمكنك حذف ملف دون إجراء مسح ضوئي لبصمة الاصبع، مما يساعد علي حماية ملفاتك من الحذف غير المقصود.
-
-        <b>أطلع على المجموعة الكاملة من الأدوات البسيطة هنا:</b>
-        https://www.simplemobiletools.com
-
-        <b>موقع مستقل لتطبيق المعرض البسيط الـ Pro : </b>
-        https://www.simplemobiletools.com/gallery
-
-        <b>صفحة الفيسبوك:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>موقع رديت:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
 
     <!--
         Haven't found some strings? There's more at

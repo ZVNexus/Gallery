@@ -5,8 +5,6 @@
     <string name="edit">Editar</string>
     <string name="open_camera">Obrir càmera</string>
     <string name="hidden">(ocult)</string>
-    <string name="excluded">(exclòs)</string>
-    <string name="pin_folder">Fixar carpeta</string>
     <string name="unpin_folder">No fixar carpeta</string>
     <string name="pin_to_the_top">Ancorar a l’inici</string>
     <string name="show_all">Mostrar el contingut de totes les carpetes</string>
@@ -22,8 +20,6 @@
     <string name="use_default">Us per defecte</string>
     <string name="volume">Volum</string>
     <string name="brightness">Brillantor</string>
-    <string name="lock_orientation">Bloquejar orientació</string>
-    <string name="unlock_orientation">Desbloquejar orientació</string>
     <string name="change_orientation">Canviar orientació</string>
     <string name="force_portrait">Forçar vertical</string>
     <string name="force_landscape">Forçar horitzontal</string>
@@ -32,7 +28,6 @@
     <string name="fixing">Fixant…</string>
     <string name="dates_fixed_successfully">Data fixada correctament</string>
     <string name="no_date_takens_found">No Date Taken values have been found</string>
-    <string name="share_resized">Comparteix una versió redimensionada</string>
     <string name="upgraded_from_free">Hola,\n\nsembla que heu actualitzat des de l\'antiga aplicació gratuïta. Ara podeu desinstal·lar la versió antiga, que té un botó "Actualitza a Pro" a la part superior de la configuració de l’aplicació.\nNomés s’eliminaran els elements de la paperera, els elements preferits sense marcar i també caldrà restablirla configuració de la vostra aplicació.\n\nGràcies!</string>
     <string name="switch_to_file_search">Canvia a la cerca de fitxers a totes les carpetes visibles</string>
 
@@ -55,8 +50,6 @@
     <string name="exclude_folder_description">Això exclou la selecció juntament amb les carpetes, només de Simple Gallery. Pots gestionar les carpetes excloses en els Ajustaments.</string>
     <string name="exclude_folder_parent">Excloure millor la carpeta superior?</string>
     <string name="excluded_activity_placeholder">Excloure les carpetes les ocultarà junt amb les seves subcarpetes, però només a Simple Gallery. Seguirant sent visibles a altres aplicacions.\n\nSi vols ocultar-les d’altres aplicacions fes servir la opció Ocultar.</string>
-    <string name="remove_all">Eliminar tot</string>
-    <string name="remove_all_description">Eliminar totes les carpetes de la llista d’excloses? Això no eliminarà les carpetes.</string>
     <string name="hidden_folders">Carpetes ocultes</string>
     <string name="manage_hidden_folders">Gestionar carpetes ocultes</string>
     <string name="hidden_folders_placeholder">Sembla que no tens cap carpeta amb l’arxiu \".nomedia\".</string>
@@ -85,14 +78,10 @@
     <string name="image_editing_failed">Ha fallat la edició de la imatge</string>
     <string name="image_editing_cancelled">Image editing cancelled</string>
     <string name="file_edited_successfully">Fitxer editar satisfactoriament</string>
-    <string name="edit_image_with">Editar imatge utilitzant:</string>
-    <string name="no_editor_found">No s’ha trobat cap editor d’imatges</string>
     <string name="unknown_file_location">Ubicació de l’arxiu desconeguda</string>
-    <string name="error_saving_file">No s’ha pogut sobreescriure l’arxiu d’origen</string>
     <string name="rotate_left">Rotar a l’esquerra</string>
     <string name="rotate_right">Rotar a la dreta</string>
     <string name="rotate_one_eighty">Rotar 180º</string>
-    <string name="flip">Girar</string>
     <string name="flip_horizontally">Horizontalment</string>
     <string name="flip_vertically">Verticalment</string>
     <string name="free_aspect_ratio">Lliure</string>              <!-- available as an option: 1:1, 4:3, 16:9, free -->
@@ -100,13 +89,8 @@
 
     <!-- Set wallpaper -->
     <string name="simple_wallpaper">Fons de pantalla de Simple Gallery</string>
-    <string name="set_as_wallpaper">Establir com a fons de pantalla</string>
-    <string name="set_as_wallpaper_failed">Error a l’establir com fons de pantalla</string>
-    <string name="set_as_wallpaper_with">Establir com fons de pantalla amb:</string>
     <string name="setting_wallpaper">Establint fons de pantalla&#8230;</string>
     <string name="wallpaper_set_successfully">Fons de pantalla establert correctament</string>
-    <string name="portrait_aspect_ratio">Relació d’aspecte tipus retrat</string>
-    <string name="landscape_aspect_ratio">Relació d’aspecte tipus paisatge</string>
     <string name="home_screen">Pantalla principal</string>
     <string name="lock_screen">Pantalla de bloqueig</string>
     <string name="home_and_lock_screen">Pantalla principal i de bloqueig</string>
@@ -114,7 +98,6 @@
     <!-- Slideshow -->
     <string name="slideshow">Presentació de diapositives</string>
     <string name="interval">Interval (segons):</string>
-    <string name="include_photos">Inclou imatges</string>
     <string name="include_videos">Inclou vídeos</string>
     <string name="include_gifs">Inclou GIFs</string>
     <string name="random_order">Ordre aleatori</string>
@@ -137,10 +120,8 @@
     <string name="group_by">Agrupar per</string>
     <string name="do_not_group_files">No agrupar fitxers</string>
     <string name="by_folder">Carpeta</string>
-    <string name="by_last_modified">Darrer modificat</string>
     <string name="by_last_modified_daily">Darrer modificat (diari)</string>
     <string name="by_last_modified_monthly">Darrer modificat (mensual)</string>
-    <string name="by_date_taken">Data de presa</string>
     <string name="by_date_taken_daily">Data de presa (diari)</string>
     <string name="by_date_taken_monthly">Data de presa (mensual)</string>
     <string name="by_file_type">Tipus de fitxer</string>
@@ -173,7 +154,6 @@
     <string name="show_media_count">Mostrar el número de mitjans de les carpetes a la vista principal</string>
     <string name="show_extended_details">Mostrar detalls estesos sobre mitjans a pantalla complerta</string>
     <string name="manage_extended_details">Gestioneu els detalls ampliats</string>
-    <string name="one_finger_zoom">Permet fer zoom amb un sol dit a pantalla complerta</string>
     <string name="allow_instant_change">Permet canviar els mitjans de manera instantània fent clic als costats de la pantalla</string>
     <string name="allow_deep_zooming_images">Permet imatges de zoom profund</string>
     <string name="hide_extended_details">Amaga els detalls estesos quan la barra d’estat està amagada</string>
@@ -319,62 +299,7 @@
 
     <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Photo Manager &amp; Editor</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro és una galeria fora de línia altament personalitzable. Organitza i edita les teves fotos, recupera fitxers suprimits amb la paperera de reciclatge, protegeix i amaga fitxers, mostra una gran varietat de formats de foto i vídeo incloent RAW, SVG i molt més.
-
-        L’aplicació no conté anuncis ni permisos innecessaris. Com que l’aplicació tampoc no requereix accés a Internet, la vostra privadesa està protegida.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO - CARACTERÍSTIQUES</b>
-        -------------------------------------------------
-
-        • Galeria sense connexió sense anuncis ni finestres emergents
-        • Editor de fotos senzilles de la galeria: retalla, gira, canvia de mida, dibuixa, filtra i més
-        • No es necessita accés a Internet, donant-li més privacitat i seguretat
-        • No es necessiten permisos innecessaris
-        • Cerca ràpidament imatges, vídeos i fitxers
-        • Obre i visualitza molts tipus de fotos i de vídeo diferents (RAW, SVG, panoràmiques, etc.)
-        • Una varietat de gestos intuïtius per editar fàcilment i organitzar els fitxers
-        • Moltes maneres de filtrar, agrupar, amplificar i ordenar fitxers
-        • Personalitza l’aparença de Simple Gallery Pro
-        • Disponible en 32 idiomes
-        • Marca els fitxers com a preferits per accedir ràpidament
-        • Protegeix les teves fotos i vídeos amb un patró, pin o empremta digital
-        • Utilitza un pin, patró i empremta digital per protegir també el llançament de l’aplicació o funcions específiques
-        • Recupera fotos i vídeos esborrats de la paperera de reciclatge
-        • Canvia la visibilitat dels fitxers per ocultar fotografies i vídeos
-        • Crea una presentació de diapositives personalitzable dels teus fitxers
-        • Mostra informació detallada dels teus fitxers (resolució, valors EXIF, etc.)
-        • Simple Gallery Pro és de codi obert
-        ... i molt més!
-
-        <b>EDITOR DE GALERIA DE FOTOS </b>
-        Simple Gallery Pro et permet editar fàcilment les vostres imatges. Retalla, gira, gira i canvia la mida de les teves fotos. Si et sents una mica més creatiu, pots afegir filtres i dibuixar-ne les imatges.
-
-        <b>SUPORT PER ALTRES TIPUS DE ARXIU </b>
-        A diferència d’altres aplicacions de galeria, Simple Gallery Pro suporta una gran varietat de tipus de fitxers diferents, inclosos JPEG, PNG, MP4, MKV, RAW, SVG, fotos panoràmiques, vídeos panoràmics i molts més.
-
-        <b>GESTOR DE GALERIA ALTAMENT PERSONALITZABLE </b>
-        Des de la interfície d’usuari fins als botons de funció de la barra d’eines inferior, Simple Gallery Pro és altament personalitzable i funciona de la manera que desitgis. Cap altre aplicació de galeria té aquest tipus de flexibilitat. Gràcies a ser de codi obert, també estem disponibles en 32 idiomes.
-
-        <b>RECUPERES FOTOS I VÍDEOS </b>
-        Has suprimit accidentalment una foto o vídeo precios? No et preocupis! Simple Gallery Pro disposa d’una paperera de reciclatge on podeu recuperar fotos i vídeos eliminats fàcilment.
-
-        <b>PROTEGEIX, OCULTA FOTOS, VÍDEOS I ARXIUS </b>
-        Amb el pin, el patró o l’escàner d’emprenta digital del teu dispositiu, pots protegir i amagar fotografies, vídeos i àlbums sencers. Pots protegir la pròpia aplicació o col·locar panys sobre funcions específiques de l’aplicació. Per exemple, no poder esborrar un fitxer sense una anàlisi d’empremtes digitals, ajudant-vos a protegir els teus fitxers de l’eliminació accidental.
-
-        <b>Consulteu el conjunt complet d’eines senzilles aquí: </b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
 
     <!--
         Haven't found some strings? There's more at

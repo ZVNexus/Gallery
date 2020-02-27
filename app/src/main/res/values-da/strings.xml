@@ -5,8 +5,6 @@
     <string name="edit">Rediger</string>
     <string name="open_camera">Åbn kamera</string>
     <string name="hidden">(skjult)</string>
-    <string name="excluded">(ekskluderet)</string>
-    <string name="pin_folder">Fastgør mappe</string>
     <string name="unpin_folder">Fjern fastgørelse af mappe</string>
     <string name="pin_to_the_top">Fastgør til toppen</string>
     <string name="show_all">Vis indholdet af alle mapper</string>
@@ -22,8 +20,6 @@
     <string name="use_default">Brug standard</string>
     <string name="volume">Lydstyrke</string>
     <string name="brightness">Lysstyrke</string>
-    <string name="lock_orientation">Lås orientering</string>
-    <string name="unlock_orientation">Lås orientering op</string>
     <string name="change_orientation">Skift orientering</string>
     <string name="force_portrait">Tving portræt</string>
     <string name="force_landscape">Tving landskab</string>
@@ -32,7 +28,6 @@
     <string name="fixing">Fikser…</string>
     <string name="dates_fixed_successfully">Datoer fikset med succes</string>
     <string name="no_date_takens_found">No Date Taken values have been found</string>
-    <string name="share_resized">Del en skaleret version</string>
     <string name="upgraded_from_free">Hej\n\nDet ser ud til at du har opgraderet fra den gamle, gratis app. Du kan afinstallere den gamle version, som har en \"Opgrader til Pro\"-knap i toppen af appens indstillinger.\n\nDu vil blot få papirkurvens elementer slettet, favoritter vil blive umarkeret og du vil også skulle genopsætte din apps indstillinger.\n\nTak!</string>
     <string name="switch_to_file_search">Skift til filsøgning på tværs af synlige mapper</string>
 
@@ -55,8 +50,6 @@
     <string name="exclude_folder_description">Dette vil kun ekskludere de valgte mapper (og deres undermapper) fra Simple Gallery. Du kan administrere ekskluderede mapper i indstillingerne.</string>
     <string name="exclude_folder_parent">Ekskluder en overliggende mappe i stedet?</string>
     <string name="excluded_activity_placeholder">Ekskludering af mapper vil skjule dem og eventuelle undermapper for Simple Gallery, de vil stadig være synlige for andre apps.\n\nHvis du også vil skjule dem for andre apps, skal du bruge funktionen Skjul.</string>
-    <string name="remove_all">Fjern alle</string>
-    <string name="remove_all_description">Fjern alle fra listen med ekskluderede mapper? Det vil ikke slette mapperne.</string>
     <string name="hidden_folders">Skjulte mapper</string>
     <string name="manage_hidden_folders">Administrer skjulte mapper</string>
     <string name="hidden_folders_placeholder">Det ser ikke ud til at du har nogen skjulte mapper med en \".nomedia\"-fil.</string>
@@ -85,14 +78,10 @@
     <string name="image_editing_failed">Redigering af billede mislykkedes</string>
     <string name="image_editing_cancelled">Image editing cancelled</string>
     <string name="file_edited_successfully">File edited successfully</string>
-    <string name="edit_image_with">Rediger billede med:</string>
-    <string name="no_editor_found">Der blev ikke fundet en editor til billedbehandling</string>
     <string name="unknown_file_location">Ukendt filplacering</string>
-    <string name="error_saving_file">Kunne ikke overskrive kildefilen</string>
     <string name="rotate_left">Roter mod venstre</string>
     <string name="rotate_right">Roter mod højre</string>
     <string name="rotate_one_eighty">Roter 180º</string>
-    <string name="flip">Spejlvend</string>
     <string name="flip_horizontally">Spejlvend vandret</string>
     <string name="flip_vertically">Spejlvend lodret</string>
     <string name="free_aspect_ratio">Fri</string>                  <!-- available as an option: 1:1, 4:3, 16:9, free -->
@@ -100,13 +89,8 @@
 
     <!-- Set wallpaper -->
     <string name="simple_wallpaper">Simple Wallpaper</string>
-    <string name="set_as_wallpaper">Sæt som baggrundsbillede</string>
-    <string name="set_as_wallpaper_failed">Det mislykkedes at sætte billedet som baggrund</string>
-    <string name="set_as_wallpaper_with">Sæt som baggrundsbillede med:</string>
     <string name="setting_wallpaper">Sætter baggrundsbillede&#8230;</string>
     <string name="wallpaper_set_successfully">Sat som baggrundsbillede</string>
-    <string name="portrait_aspect_ratio">Stående billedformat</string>
-    <string name="landscape_aspect_ratio">Liggende billedformat</string>
     <string name="home_screen">Hjemmeskærm</string>
     <string name="lock_screen">Låseskærm</string>
     <string name="home_and_lock_screen">Hjemme- og låseskærm</string>
@@ -114,7 +98,6 @@
     <!-- Slideshow -->
     <string name="slideshow">Slideshow</string>
     <string name="interval">Frekvens (sekunder):</string>
-    <string name="include_photos">Inkluder billeder</string>
     <string name="include_videos">Inkluder videoer</string>
     <string name="include_gifs">Inkluder GIF\'er</string>
     <string name="random_order">Tilfældig rækkefølge</string>
@@ -137,10 +120,8 @@
     <string name="group_by">Gruppér efter</string>
     <string name="do_not_group_files">Gruppér ikke filer</string>
     <string name="by_folder">Mappe</string>
-    <string name="by_last_modified">Sidst ændret</string>
     <string name="by_last_modified_daily">Sidst ændret (daglig)</string>
     <string name="by_last_modified_monthly">Sidst ændret (månedlig)</string>
-    <string name="by_date_taken">Eksponeringsdato</string>
     <string name="by_date_taken_daily">Eksponeringsdato (daglig)</string>
     <string name="by_date_taken_monthly">Eksponeringsdato (månedlig)</string>
     <string name="by_file_type">Filtype</string>
@@ -173,7 +154,6 @@
     <string name="show_media_count">Vis antal filer i hver mappe i oversigten</string>
     <string name="show_extended_details">Vis udvidede oplysninger over medier i fuldskærm</string>
     <string name="manage_extended_details">Administrer udvidede oplysninger</string>
-    <string name="one_finger_zoom">Tillad zoom med en finger når medier er i fuldskærm</string>
     <string name="allow_instant_change">Tillad skift af medie ved klik på skærmens sider</string>
     <string name="allow_deep_zooming_images">Tillad dyb zooming af billeder</string>
     <string name="hide_extended_details">Skjul udvidede oplysninger når statuslinjen er skjult</string>
@@ -319,62 +299,7 @@
 
     <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
     <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Billedhåndtering</string>
     <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro er et offline-galleri med mange tilpasningsmuligheder. Organiser og rediger dine billeder, gendan slettede filer via papirkurven, beskyt og skjul filer og se adskillige forskellige billed- og videoformater inklusiv RAW, SVG og mange flere.
-
-        Appen indeholder ingen reklamer og kræver ingen unødvendige tilladelser. Da den heller ikke kræver adgang til internettet, er dit privatliv også beskyttet.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FUNKTIONER</b>
-        -------------------------------------------------
-
-        • Offline galleri uden reklamer eller pop op\'er
-        • Simple gallerys billedbehandler – beskær, roter, tilpas størrelse, tegn, filtrer mm.
-        • Inget krav om internetadgang - en stor fordel for dit privatliv og din sikkerhed
-        • Ingen krav om unødvendige tilladelser
-        • Hurtig søgning efter billeder, videoer &amp; filer
-        • Åbn &amp; se mange forskellige foto- og videoformater (RAW, SVG, panoramic osv.)
-        • En række intuitive bevægelser til nem redigering og organisering af filer
-        • Mange muligheder for filtrering, gruppering og sortering af filer
-        • Tilpas udseendet af Simple Gallery Pro
-        • Tilgængelig på 32 sprog
-        • Marker filer som favoriter for hurtig adgang
-        • Beskyt dine billeder &amp; videoer med et mønster, pinkode eller fingeraftryk
-        • Brug mønster, pinkode eller fingeraftryk til beskyttelse af åbning af appen eller specifikke funktioner
-        • Gendan slettede billeder &amp; videoer via papirkurven
-        • Skift mellem vis/skjul filer for at skjule billeder &amp; videoer
-        • Opret et redigerbart slideshow med dine filer
-        • Se detaljeret information om dine filer (opløsning, EXIF-værdier osv.)
-        • Simple Gallery Pro er open source
-        … og meget mere!
-
-        <b>FOTOGALLERI - EDITOR</b>
-        Simple Gallery Pro gør det nemt at redigere dine billeder i en fart. Beskær, flip, roter og tilpas størrelsen på dine billeder. Føler du dig lidt mere kreativ, kan du tilføje filtre og tegne oveni dine billeder!
-
-        <b>UNDERSTØTTELSE AF MANGE FILTYPER</b>
-        I modsætning til mange andre gallerier supporterer Simple Gallery Pro en masse forskellige filtyper inklusiv JPEG, PNG, MP4, MKV, RAW, SVG, Panoramic-foto, Panoramic-videoer og mange flere.
-
-        <b>GALLERI MED MASSER AF TILPASNINGSMULIGHEDER</b>
-        Simple Gallery Pro kan tilpasses lige fra brugerfladen til funktionsknapper på nederste værktøjslinje og fungere lige efter dit ønske. Inget andet galleri er så fleksibelt! Takket være at det er open sourse, er det også tilgængeligt på 32 sprog!
-
-        <b>GENDAN SLETTEDE BILLEDER &amp; VIDEOER</b>
-        Er du ved en fejl kommet til at slette et billede eller en video? Intet problem! Simple Gallery Pro har en handy papirkurv hvorfra du nemt kan gendanne slettede billeder &amp; videoer.
-
-        <b>BESKYT &amp; SKJUL FOTOS, VIDEOER &amp; FILER</b>
-        Du kan beskytte og skjule billeder, videoer og hele album med en pinkode, et mønster eller din enheds fingeraftryksscanner. Du kan også beskytte selve appen eller låse specifikke funktioner i appen. Du kan for eksempel låse sletning af en fil uden scanning af fingeraftryk og dermed beskytte filer mod at blive slettet ved en fejl.
-
-        <b>Se hele suiten af Simple Tools her:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
 
     <!--
         Haven't found some strings? There's more at
