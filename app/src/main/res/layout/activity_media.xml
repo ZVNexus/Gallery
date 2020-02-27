@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.android.gallery.views.MyTextView
             android:id="@+id/media_empty_text_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
             android:textSize="@dimen/bigger_text_size"
             android:visibility="gone"/>
 
-        <com.simplemobiletools.commons.views.MyTextView
+        <com.android.gallery.views.MyTextView
             android:id="@+id/media_empty_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,15 +35,15 @@
             android:textSize="@dimen/bigger_text_size"
             android:visibility="gone"/>
 
-        <com.simplemobiletools.commons.views.MyRecyclerView
+        <com.android.gallery.views.MyRecyclerView
             android:id="@+id/media_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="none"
-            app:layoutManager="com.simplemobiletools.commons.views.MyGridLayoutManager"
+            app:layoutManager="com.android.gallery.views.MyGridLayoutManager"
             app:spanCount="@integer/media_columns_vertical_scroll"/>
 
-        <com.simplemobiletools.commons.views.FastScroller
+        <com.android.gallery.views.FastScroller
             android:id="@+id/media_vertical_fastscroller"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -53,9 +53,9 @@
 
             <include layout="@layout/fastscroller_handle_vertical"/>
 
-        </com.simplemobiletools.commons.views.FastScroller>
+        </com.android.gallery.views.FastScroller>
 
-        <com.simplemobiletools.commons.views.FastScroller
+        <com.android.gallery.views.FastScroller
             android:id="@+id/media_horizontal_fastscroller"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,6 +66,6 @@
 
             <include layout="@layout/fastscroller_handle_horizontal"/>
 
-        </com.simplemobiletools.commons.views.FastScroller>
+        </com.android.gallery.views.FastScroller>
     </RelativeLayout>
 </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

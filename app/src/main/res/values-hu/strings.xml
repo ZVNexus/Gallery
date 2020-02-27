@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Simple Gallery</string>
+
+	<string name="app_name">Gallery</string>
 	<string name="app_launcher_name">Galéria</string>
 	<string name="edit">Szerkesztés</string>
 	<string name="open_camera">Kamera megnyitása</string>
@@ -102,7 +103,7 @@
 	
 	<!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 	<!-- Set wallpaper -->
-	<string name="simple_wallpaper">Simple Wallpaper</string>
+	<string name="wallpaper">Wallpaper</string>
 	<string name="set_as_wallpaper">Beállítás háttérképként</string>
 	<string name="set_as_wallpaper_failed">Nem sikerült a beállítás háttérképként</string>
 	<string name="set_as_wallpaper_with">Beállítás háttérképként ezzel:</string>
@@ -288,101 +289,4 @@
 	<string name="pesdk_common_title_aquamarinColor">Aquamarin</string>
 	<string name="pesdk_common_title_pipettableColor">Pipetta szín</string>
 	
-	<!-- FAQ -->
-	<string name="faq_1_title">Hogyan tudom beállítani a Simple Gallery-t alapértelmezett galériának?</string>
-	<string name="faq_1_text">Először meg kell találnia az alapértelmezett galériát az eszköz beállításainak Alkalmazások részében. Keressen egy olyan gombot, amely valami olyasmit, mint az \"Legyen alapértelmezett\", kattintson rá, majd válassza a \"Alapértelmezések törlése\" pontot.
-A következő alkalommal, amikor megpróbál megnyitni egy képet vagy videót, megjelenik egy alkalmazásválasztó, ahol kiválaszthatja a Simple Gallery lehetőséget, és beállíthatja alapértelmezett alkalmazásnak.</string>
-	<string name="faq_2_title">Zároltam az alkalmazást jelszóval, de elfelejtettem. Mit tehetek?</string>
-	<string name="faq_2_text">2 módon is megoldhatja. Újratelepítheti az alkalmazást, vagy megkeresi az alkalmazást az eszköz beállításai között, és válassza az \"Adatok törlése\" lehetőséget. Minden beállítást visszaállít alapértelmezettre. Ez nem távolítja el a média fájlokat.</string>
-	<string name="faq_3_title">Hogyan állíthatok be egy albumot úgy, hogy mindig felül legyen?</string>
-	<string name="faq_3_text">Hosszan nyomja meg a kívánt albumot, és válassza ki a Kitűzés ikont a művelet menüben, ami rögzíti felülre. Többféle mappát is kitűzhet, ezeket az elemeket az alapértelmezett rendezési mód szerint rendezi.</string>
-	<string name="faq_4_title">Hogyan tudom előre tekerni a videókat?</string>
-	<string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-	<string name="faq_5_title">Mi a különbség a mappa elrejtése és kizárása között?</string>
-	<string name="faq_5_text">A Kizárás megakadályozza, hogy a mappát a Simple Gallery megjelenítse, az Elrejtés pedig rendszer szinten működik, és elrejti a mappát más galériákból is. Úgy működik, hogy létrehoz egy üres \". nomedia\" nevű fájlt az adott mappában, amelyet bármikor eltávolíthat bármilyen fájlkezelővel is.</string>
-	<string name="faq_6_title">Miért jelennek meg a zenei borítóval vagy matricával rendelkező mappák?</string>
-	<string name="faq_6_text">Lehet, hogy látni fog néhány szokatlan album megjelenést. Könnyen kizárhatja a hosszú megnyomással és a Kizárás kiválasztásával. A következő párbeszédablakban kiválaszthatja a szülő mappát, és valószínűleg megakadályozza, hogy a többi kapcsolódó album is megjelenjen.</string>
-	<string name="faq_7_title">A képekkel nem rendelkező mappa nem jelenik meg, vagy nem jeleníti meg az összes elemet. Mit tehetek?</string>
-	<string name="faq_7_text">Ennek több oka lehet, de megoldása egyszerű. Menjen a Beállítások -&gt; Befoglalt mappák kezelése lehetőségre, válassza a plusz jelet, és keresse meg a kívánt mappát.</string>
-	<string name="faq_8_title">Mi van, ha csak néhány különleges mappát szeretnék látni?</string>
-	<string name="faq_8_text">A Befoglalt mappákhoz tartozó mappák hozzáadása nem zár ki automatikusan semmit. Amit tehetünk, menjünk a Beállítások -&gt; Kizárt mappák kezelése, kizárjuk a gyökérmappát \"/ \", utána hozzáadjuk a kívánt mappákat a Beállítások -&gt; Befoglalt mappák kezelése menüpontban.
-Ezzel csak a kiválasztott mappák láthatók, mivel a kizárás és a befoglalás rekurzív. Ha egy mappát hozzáadunk mindkettőhöz, akkor megjelenik.</string>
-	<string name="faq_10_title">Tudom vágni a képeket ezzel az alkalmazással?</string>
-	<string name="faq_10_text">Igen, megvághatja a képeket a szerkesztőben a kép sarkainak húzásával. A szerkesztőhöz eljuthat egy miniatűr kép hosszú megnyomásával és a Szerkesztés választásával, vagy a Szerkesztés választásával a teljes képernyős nézetben.</string>
-	<string name="faq_11_title">Valamilyen módon össze tudom csoportosítani a médiafájl bélyegképeit?</string>
-	<string name="faq_11_text">Persze, a miniatűr nézetben használja a \"Csoport\" menüpontot. A fájlokat többféle kritérium alapján csoportosíthatja, beleértve a dátumot is. Ha a \"Mutassa az összes mappa tartalmát\" funkciót választja, akkor mappákba is csoportosíthatja ezeket.</string>
-	<string name="faq_12_title">A dátum szerinti rendezés nem működik megfelelően, hogyan tudom megjavítani?</string>
-	<string name="faq_12_text">Valószínűleg a fájlok másolásából származik. Ezt a fájl bélyegképének kiválasztásával és a \"Dátum javítása\" lehetőség kiválasztásával oldhatja meg.</string>
-	<string name="faq_13_title">Néhány színcsíkot látok a képeken. Hogyan javíthatom a minőséget?</string>
-	<string name="faq_13_text">Az esetek többségében a kép megjelenítés jelenlegi megoldása jól működik. Ha még jobb képminőséget szeretne, engedélyezheti a \"Mutassa a képeket a lehető legjobb minőségben\" opcióval az alkalmazás beállításaiban, a \"Mély nagyítású képek\" szakaszban.</string>
-	<string name="faq_14_title">Elrejtettem egy fájlt/mappát. Hogyan tudom látni?</string>
-	<string name="faq_14_text">A rejtett elemek megtekintéséhez nyomja meg a \"Rejtettek ideiglenes mutatása\" elemet a fő képernyőn, vagy válassza a \"Mutassa a rejtett elemeket\" az alkalmazás beállításaiban. Ha meg akarja szüntetni, csak hosszan nyomja meg, és válassza a \"Elrejtés megszüntetés\" lehetőséget. A mappák elrejtése egy rejtett \". nomedia\" fájl hozzáadásával történik. Ezt a fájlt bármelyik fájlkezelővel is törölheti.</string>
-	<string name="faq_15_title">Miért használ az alkalmazás ennyi helyet?</string>
-	<string name="faq_15_text">Az alkalmazás gyorsítótára akár a 250 MB-ot is meghaladhatja, és ez gyorsabb megjelenítést biztosít. Ha az alkalmazás még több helyet foglal el, a legvalószínűbb oka, hogy a Lomtárban is van elem. Ezek a fájlok is az alkalmazás méretébe számítanak bele. Törölheti a Lomtárat azzal, hogy megnyitja és törli az összes fájlt vagy az alkalmazás beállításait. A Lomtárban lévő minden fájl 30 nap elteltével automatikusan törlődik.</string>
-	
-	<!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-	<!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-	<string name="app_title">Simple Gallery Pro - Photo Manager &amp; Editor</string>
-	<!-- Short description has to have less than 80 chars -->
-	<string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-	<string name="app_long_description">
-        Simple Gallery Pro is a highly customizable offline gallery. Organize &amp; edit your photos, recover deleted files with the recycle bin, protect &amp; hide files and view a huge variety of different photo &amp; video formats including RAW, SVG and much more.
-
-        The app contains no ads and unnecessary permissions. As the app doesn’t require internet access either, your privacy is protected.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FEATURES</b>
-        -------------------------------------------------
-
-        • Offline gallery with no ads or popups
-        • Simple gallery photo editor – crop, rotate, resize, draw, filters &amp; more
-        • No internet access needed, giving you more privacy and security
-        • No unnecessary permissions required
-        • Quickly search images, videos &amp; files
-        • Open &amp; view many different photo and video types (RAW, SVG, panoramic etc)
-        • A variety of intuitive gestures to easily edit &amp; organize files
-        • Lots of ways to filter, group &amp; sort files
-        • Customize the appearance of Simple Gallery Pro
-        • Available in 32 languages
-        • Mark files as favorites for quick access
-        • Protect your photos &amp; videos with a pattern, pin or fingerprint
-        • Use pin, pattern &amp; fingerprint to protect the app launch or specific functions too
-        • Recover deleted photos &amp; videos from the recycle bin
-        • Toggle visibility of files to hide photos &amp; videos
-        • Create a customizable slideshow of your files
-        • View detailed information of your files (resolution, EXIF values etc)
-        • Simple Gallery Pro is open source
-        … and much much more!
-
-        <b>PHOTO GALLERY EDITOR</b>
-        Simple Gallery Pro makes it easy to edit your pictures on the fly. Crop, flip, rotate and resize your pictures. If you’re feeling a little more creative you can add filters and draw on your pictures!
-
-        <b>SUPPORT FOR MANY FILE TYPES</b>
-        Unlike some other gallery viewers &amp; photo organizers, Simple Gallery Pro supports a huge range of different file types including JPEG, PNG, MP4, MKV, RAW, SVG, Panoramic photos, Panoramic videos and many more.
-
-        <b>HIGHLY CUSTOMIZABLE GALLERY MANAGER</b>
-        From the UI to the function buttons on the bottom toolbar, Simple Gallery Pro is highly customizable and works the way you want it to. No other gallery manager has this kind of flexibility! Thanks to being open source, we’re also available in 32 languages!
-
-        <b>RECOVER DELETED PHOTOS &amp; VIDEOS</b>
-        Accidentally deleted a precious photo or video? Don’t worry! Simple Gallery Pro features a handy recycle bin where you can recover deleted photos &amp; videos easily.
-
-        <b>PROTECT &amp; HIDE PHOTOS, VIDEOS &amp; FILES</b>
-        Using pin, pattern or your device’s fingerprint scanner you can protect and hide photos, videos &amp; entire albums. You can protect the app itself or place locks on specific functions of the app. For example, you can’t delete a file without a fingerprint scan, helping to protect your files from accidental deletion.
-
-        <b>Nézze meg a Simple Tools csomagot itt:</b>
-        https://www.simplemobiletools.com
-
-        <b>A Simple Gallery Pro önálló weboldala:</b>
-        https://www.simplemobiletools.com/gallery
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-	<!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

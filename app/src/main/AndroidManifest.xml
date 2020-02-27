@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.simplemobiletools.gallery.pro"
+    package="com.android.gallery"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -116,24 +116,24 @@
         </activity>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+            android:name="com.android.gallery.activities.AboutActivity"
             android:label="@string/about"
             android:parentActivityName=".activities.MainActivity"/>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+            android:name="com.android.gallery.activities.LicenseActivity"
             android:label="@string/third_party_licences"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity"/>
+            android:parentActivityName="com.android.gallery.activities.AboutActivity"/>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+            android:name="com.android.gallery.activities.CustomizationActivity"
             android:label="@string/customize_colors"
             android:parentActivityName=".activities.SettingsActivity"/>
 
         <activity
-            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+            android:name="com.android.gallery.activities.FAQActivity"
             android:label="@string/frequently_asked_questions"
-            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity"/>
+            android:parentActivityName="com.android.gallery.activities.AboutActivity"/>
 
         <activity
             android:name=".activities.SettingsActivity"
@@ -231,7 +231,7 @@
 
         <activity
             android:name=".activities.SetWallpaperActivity"
-            android:label="@string/simple_wallpaper">
+            android:label="@string/wallpaper">
             <intent-filter>
                 <action android:name="android.intent.action.ATTACH_DATA"/>
 
@@ -270,7 +270,7 @@
             android:name=".receivers.RefreshMediaReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.simplemobiletools.REFRESH_MEDIA"/>
+                <action android:name="com.android.REFRESH_MEDIA"/>
             </intent-filter>
         </receiver>
 

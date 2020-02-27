@@ -3,7 +3,7 @@
     <string name="gif">GIF</string>
     <string name="raw">RAW</string>
     <string name="svg">SVG</string>
-    <string name="package_name">com.simplemobiletools.gallery.pro</string>
+    <string name="package_name">com.android.gallery</string>
 
     <!-- Release notes -->
     <string name="release_277">Fully replaced the photo editor with a powerful third party library (for resizing images use Menu -> Resize from the fullscreen view, until it gets added in the editor)</string>

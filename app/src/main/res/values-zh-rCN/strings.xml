@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">简约图库</string>
+
+    <string name="app_name">图库</string>
     <string name="app_launcher_name">图库</string>
     <string name="edit">编辑</string>
     <string name="open_camera">打开相机</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">其他</string>             <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">简约壁纸</string>
+    <string name="wallpaper">简约壁纸</string>
     <string name="set_as_wallpaper">设置为壁纸</string>
     <string name="set_as_wallpaper_failed">设置壁纸失败</string>
     <string name="set_as_wallpaper_with">设置壁纸方式：</string>
@@ -285,97 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Aquamarin</string>
     <string name="pesdk_common_title_pipettableColor">Pipettable color</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">如何把简约图库设置为设备的默认图库？</string>
-    <string name="faq_1_text">首先，你需要在设备设置的“应用”菜单中找到你当前的默认图库，找到并点击“默认打开”按钮，然后点击“清除默认值”。下次当你再次打开图片或视频时，你应该会看到一个应用程序选择器，请在这里选择“简约图库”并将其设为默认应用程序。</string>
-    <string name="faq_2_title">我用密码锁定了本应用，但我忘记了密码。该怎么办？</string>
-    <string name="faq_2_text">有两种方法。你可以重新安装本应用，也可以在设置中清除此应用的数据，这将会会重置你的所有设置，但不会删除任何媒体文件。</string>
-    <string name="faq_3_title">如何让某个相册始终显示在最上面？</string>
-    <string name="faq_3_text">你可以长按该相册并在操作栏中点击图钉图标，这样 就可以将其固定在顶部了。你也可以固定多个文件夹，固定项目将按照默认排序方法排序。</string>
-    <string name="faq_4_title">如何快进/快退视频？</string>
-    <string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-    <string name="faq_5_title">文件夹的隐藏和排除有什么区别？</string>
-    <string name="faq_5_text">排除功能只是防止其在简约图库中显示，而隐藏功能则使用的是系统的方法，这样做也会在其他图库中隐藏。它的工作原理是在给定的文件夹中创建一个空的.nomedia文件，你可以使用任何文件管理器删除它。</string>
-    <string name="faq_6_title">为什么会出现音乐艺术家封面或贴纸文件夹？</string>
-    <string name="faq_6_text">你可能会看到一些不寻常的相册出现。你可以通过长按它们并选择“排除”来排除它们。在之后的对话框中，你可以选择父文件夹，这样也许就会阻止其他相关的相册出现。</string>
-    <string name="faq_7_title">有的图片文件夹没有显示，怎么回事？</string>
-    <string name="faq_7_text">原因可能有很多，但解决方法很简单。只需进入设置 -> 管理包含目录，点击+号并选择到所需的文件夹。</string>
-    <string name="faq_8_title">如果我只想显示几个特定的文件夹，该如何操作？</string>
-    <string name="faq_8_text">在包含目录中添加文件夹不会自动排除其他的内容。你可以做的：进入设置 -> 管理排除目录，排除根目录\"/\"，然后在设置 -> 管理包含目录中添加所需的文件夹。这样就只显示选定的文件夹了，由于排除和包含都是递归的，所以排除并包含的文件夹是会显示的。</string>
-    <string name="faq_10_title">可以裁剪图片吗？</string>
-    <string name="faq_10_text">当然，通过长按图片缩略图并选择编辑，或在全屏视图中选择编辑来打开编辑器。你可以通过拖动图片边角来剪裁图像。</string>
-    <string name="faq_11_title">我能将媒体文件缩略图分组吗？</string>
-    <string name="faq_11_text">当然，只需在缩略图视图中使用\"分组依据\"菜单项即可。您可以依据多个条件对文件进行分组，包括拍摄日期。如果您使用了\"显示所有文件夹内容\"功能，则可以按文件夹对它们进行分组。</string>
-    <string name="faq_12_title">按拍摄日期排序似乎有异常，我该如何解决？</string>
-    <string name="faq_12_text">很可能是因为图片是从某处复制过来的。您可以长按文件缩略图并选择\"修复拍摄日期\"来修复它。</string>
-    <string name="faq_13_title">我看到图像上有一些色带。如何提高提高质量？</string>
-    <string name="faq_13_text">目前显示图像的方案在绝大多数情况下都能正常工作，如果您想要更好的图像质量，您可以在设置中启用\"以最高质量显示图像\"。</string>
-    <string name="faq_14_title">我隐藏了某个文件/文件夹。如何取消隐藏？</string>
-    <string name="faq_14_text">您可以点击主界面上的\"暂时显示隐藏的项目\"选项，或在设置中开启\"显示隐藏的项目\"。 如果你想取消隐藏它，长按它并选择\"取消隐藏\"即可。 我们是通过向文件夹中添加\".nomedia\"文件来隐藏文件夹的，使用文件管理器删除该文件也可以取消隐藏。</string>
-    <string name="faq_15_title">为什么应用占用了这么多的空间？</string>
-    <string name="faq_15_text">应用缓存最多可达250MB，这样可以使图像加载更快。如果应用占用了更多空间，则很可能是因为回收站中有项目。这些文件被计入应用程序大小。您可以打开回收站并删除所有文件，或从应用设置中清除回收站。回收站中的内容会在30天后自动删除。</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">简约图库 Pro - 图片管理 &amp; 编辑</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        简约图库 Pro 是一个高度可定制的图库。管理并编辑你的照片，从回收站中恢复已删除的照片，保护并隐藏文件，查看RAW，SVG等等多种照片和视频格式。
-
-        该应用不包含广告和不必要的权限。我们保护您的隐私，因为该应用不需要联网权限。
-
-        -------------------------------------------------
-                  <b>简约图库 Pro – 特性</b>
-        -------------------------------------------------
-
-        • 完全离线，没有广告或弹出窗口
-        • 简约图库图片编辑器 – 裁剪，旋转，调整大小，绘制，滤镜等等
-        • 无需联网权限，为您提供更多的隐私和安全
-        • 没有不必要的权限
-        • 快速搜索图像，视频和文件
-        • 支持打开并查看多种照片和视频类型（RAW，SVG，全景等）
-        • 各种直观的手势，便于编辑和管理文件
-        • 多种过滤、分组和排序文件的方法
-        • 自定义应用界面外观
-        • 支持多达 32 种语言
-        • 支持将文件添加到收藏夹以便快速访问
-        • 支持使用图案、密码或指纹保护您的照片和视频
-        • 同样支持使用图案、密码或指纹保护应用或特定功能
-        • 从回收站中恢复已删除的照片和视频
-        • 支持隐藏照片和视频
-        • 为您的文件创建一个可自定义的幻灯片
-        • 查看文件的详细信息（分辨率，EXIF值等等）
-        • 该应用是开源的
-        … 还有很多很多！
-
-        <b>图库照片编辑</b>
-        简约图库 Pro 可以轻松地动态编辑图片。支持裁剪、翻转、旋转、或是调整图片大小。如果您希望更有创意的话，可以添加滤镜，或是直接在图片上绘制！
-
-        <b>支持多种文件类型</b>
-        与其他一些图库应用不同，简约图库 Pro 支持多种文件类型，包括JPEG，PNG，MP4，MKV，RAW，SVG，全景照片，全景视频等等。
-
-        <b>高度可定制的图库</b>
-        从UI到底部工具栏上的功能按钮，简约图库 Pro 可高度自定义并按您的要求工作。其他图库应用可没有这种灵活性！由于该应用是开源的，所以我们还提供 32 种语言！
-
-        <b>恢复已删除的照片和视频</b>
-        意外删除了珍贵的照片或视频？别担心！简约图库 Pro 具有方便的回收站，您可以方便地恢复已删除的照片和视频。
-
-        <b>保护并隐藏照片、视频和文件</b>
-        使用密码、图案或指纹保护和隐藏照片、视频、或是整个相册。您也可以保护应用自身或禁用一些特定功能。 例如，只有指纹验证通过才可以删除文件，从而有效地防止您的文件被意外删除。
-
-        <b>查看简约系列的所有应用:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

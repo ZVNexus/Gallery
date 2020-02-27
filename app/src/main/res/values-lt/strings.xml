@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Paprasta Galerija</string>
+
+    <string name="app_name">Galerija</string>
     <string name="app_launcher_name">Galerija</string>
     <string name="edit">Redaguoti</string>
     <string name="open_camera">Atidaryti fotoaparatą</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">Other</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">Paprastas darbalaukio fonas</string>
+    <string name="wallpaper">Paprastas darbalaukio fonas</string>
     <string name="set_as_wallpaper">Nustatyti kaip darbalaukio foną</string>
     <string name="set_as_wallpaper_failed">Nustatyti darbalaukio fono nepavyko</string>
     <string name="set_as_wallpaper_with">Nustatyti kaip darbalaukio paveikslėlį su:</string>
@@ -285,99 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Aquamarin</string>
     <string name="pesdk_common_title_pipettableColor">Pipettable color</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">Kaip galiu padaryti paprastą galeriją kaip numatytąją įrenginio galeriją?</string>
-    <string name="faq_1_text">Pirmiausia turite rasti numatytąją galeriją savo prietaiso nustatymų skyriuje "Programėlės", ieškoti mygtuko panašaus į \ "Atidaryti pagal numatytuosius \", spustelėkite jį, tada pasirinkite \ "Išvalyti numatytuosius \". 
-	Kitą kartą, kai bandysite atidaryti atvaizdą ar vaizdo įrašą, turėtumėte pamatyti programos parinkiklį, kuriame galite pasirinkti Paprastą galeriją ir padaryti ją numatytaja.</string>
-    <string name="faq_2_title">Aš užrakinau programėlę su slaptažodžiu, bet pamiršau jį. Ką aš galiu padaryti?</string>
-    <string name="faq_2_text">Tai galite išspręsti dviem būdais. Galite arba iš naujo įdiegti programėlę, arba rasti programėlę savo įrenginio nustatymuose ir pasirinkti \ "Išvalyti duomenis \". Jis iš naujo nustatys visus jūsų nustatymus, bet nepašalins jokių medijos bylų.</string>
-    <string name="faq_3_title">Kaip aš galiu padaryti albumą visada rodomą viršuje?</string>
-    <string name="faq_3_text">Galite ilgai paspausti norimą albumą ir pasirinkti "Prisegti" piktogramą, esančią meniu "Veiksmo meniu", viršuje. Galite prisegti kelis aplankus, prisegti elementai bus rūšiuojami pagal numatytąjį rūšiavimo metodą.</string>
-    <string name="faq_4_title">Kaip galėčiau greitai prasukti vaizdo įrašus?</string>
-    <string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-    <string name="faq_5_title">Koks skirtumas tarp slėpimo ir išskyrimo iš aplanko?</string>
-    <string name="faq_5_text">Išskyrimas neleidžia rodyti aplanko tik paprastoje galerijoje, tuo tarpu slėpimas slepia aplanką iš kitų galerijų. Tai veikia, sukuriant tuščią \ ". Nomedia \" bylą tam tikrame aplanke, kurį vėliau galite pašalinti bet kuria bylų tvarkykle.</string>
-    <string name="faq_6_title">Kodėl pasirodo aplankai su muzikos viršeliu ar lipdukais?</string>
-    <string name="faq_6_text">Gali atsitikti taip, kad pamatysite keletą neįprastų albumų. Galite lengvai juos pašalinti, ilgai paspaudę juos ir pasirinkdami "Išskirti". Kitame dialoge galite pasirinkti tėvinį aplanką, greičiausiai bus išvengta kitų panašių albumų.</string>
-    <string name="faq_7_title">Aplankas su nuotraukomis nerodomas, ką aš galiu padaryti?</string>
-    <string name="faq_7_text">Tai gali būti dėl keletos priežasčių, tačiau sprendimas yra lengvas. Tiesiog eikite į Nustatymai -> Tvarkyti įtrauktus aplankus, pasirinkite "Plius" ir eikite į reikiamą aplanką.</string>
-    <string name="faq_8_title">Ką daryti, jei noriu matyti tik keletą konkrečių aplankų?</string>
-    <string name="faq_8_text">Pridėjus aplanką į "Įtraukti aplankai", automatiškai neįtraukiama nieko. Ką jūs galite padaryti, eikite į Nustatymai -> Tvarkyti išskirtus aplankus, išskirkite šakninį aplanką \ "/ \", tada pridėkite norimus aplankus, esančius Nustatymai -> Tvarkyti įtrauktas aplankas.
-         Tai leis matyti tik tuos pasirinktus aplankus, nes abu atmetami ir įtraukti yra rekursyvūs, ir jei aplankas yra išskirtas ir įtrauktas, jis bus rodomas.</string>
-    <string name="faq_10_title">Ar galiu apkarpyti vaizdus naudojant šią programėlę?</string>
-    <string name="faq_10_text">Taip, redaguodami vaizdus, galite juos apkarpyti, vilkdami vaizdo kampus. Galite patekti į redaktorių ilgai paspaudę vaizdo miniatiūrą ir pasirinkę "Redaguoti" arba iš viso ekrano rodinio pasirinkę "Redaguoti".</string>
-    <string name="faq_11_title">Can I somehow group media file thumbnails?</string>
-    <string name="faq_11_text">Sure, just use the \"Group by\" menu item while at the thumbnails view. You can group files by multiple criteria, including Date Taken. If you use the \"Show all folders content\" function you can group them by folders too.</string>
-    <string name="faq_12_title">Sorting by Date Taken doesn\'t seem to work properly, how can I fix it?</string>
-    <string name="faq_12_text">It is most likely caused by the files being copied from somewhere. You can fix it by selecting the file thumbnails and selecting \"Fix Date Taken value\".</string>
-    <string name="faq_13_title">I see some color banding on the images. How can I improve the quality?</string>
-    <string name="faq_13_text">The current solution for displaying images works fine in the vast majority of cases, but if you want even better image quality, you can enable the \"Show images in the highest possible quality\" at the app settings, in the \"Deep zoomable images\" section.</string>
-    <string name="faq_14_title">I have hidden a file/folder. How can I unhide it?</string>
-    <string name="faq_14_text">You can either press the \"Temporarily show hidden items\" menu item at the main screen, or toggle \"Show hidden items\" in the app settings to see the hidden item. If you want to unhide it, just long press it and select \"Unhide\". Folders are hidden by adding a hidden \".nomedia\" file into them, you can delete the file with any file manager too.</string>
-    <string name="faq_15_title">Why does the app take up so much space?</string>
-    <string name="faq_15_text">App cache can take up to 250MB, it ensures quicker image loading. If the app is taking up even more space, it is most likely caused by you having items in the Recycle Bin. Those files count to the app size. You can clear the Recycle bin by opening it and deleting all files, or from the app settings. Every file in the Bin is deleted automatically after 30 days.</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Photo Manager &amp; Editor</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro is a highly customizable offline gallery. Organize &amp; edit your photos, recover deleted files with the recycle bin, protect &amp; hide files and view a huge variety of different photo &amp; video formats including RAW, SVG and much more.
-
-        The app contains no ads and unnecessary permissions. As the app doesn’t require internet access either, your privacy is protected.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FEATURES</b>
-        -------------------------------------------------
-
-        • Offline gallery with no ads or popups
-        • Simple gallery photo editor – crop, rotate, resize, draw, filters &amp; more
-        • No internet access needed, giving you more privacy and security
-        • No unnecessary permissions required
-        • Quickly search images, videos &amp; files
-        • Open &amp; view many different photo and video types (RAW, SVG, panoramic etc)
-        • A variety of intuitive gestures to easily edit &amp; organize files
-        • Lots of ways to filter, group &amp; sort files
-        • Customize the appearance of Simple Gallery Pro
-        • Available in 32 languages
-        • Mark files as favorites for quick access
-        • Protect your photos &amp; videos with a pattern, pin or fingerprint
-        • Use pin, pattern &amp; fingerprint to protect the app launch or specific functions too
-        • Recover deleted photos &amp; videos from the recycle bin
-        • Toggle visibility of files to hide photos &amp; videos
-        • Create a customizable slideshow of your files
-        • View detailed information of your files (resolution, EXIF values etc)
-        • Simple Gallery Pro is open source
-        … and much much more!
-
-        <b>PHOTO GALLERY EDITOR</b>
-        Simple Gallery Pro makes it easy to edit your pictures on the fly. Crop, flip, rotate and resize your pictures. If you’re feeling a little more creative you can add filters and draw on your pictures!
-
-        <b>SUPPORT FOR MANY FILE TYPES</b>
-        Unlike some other gallery viewers &amp; photo organizers, Simple Gallery Pro supports a huge range of different file types including JPEG, PNG, MP4, MKV, RAW, SVG, Panoramic photos, Panoramic videos and many more.
-
-        <b>HIGHLY CUSTOMIZABLE GALLERY MANAGER</b>
-        From the UI to the function buttons on the bottom toolbar, Simple Gallery Pro is highly customizable and works the way you want it to. No other gallery manager has this kind of flexibility! Thanks to being open source, we’re also available in 32 languages!
-
-        <b>RECOVER DELETED PHOTOS &amp; VIDEOS</b>
-        Accidentally deleted a precious photo or video? Don’t worry! Simple Gallery Pro features a handy recycle bin where you can recover deleted photos &amp; videos easily.
-
-        <b>PROTECT &amp; HIDE PHOTOS, VIDEOS &amp; FILES</b>
-        Using pin, pattern or your device’s fingerprint scanner you can protect and hide photos, videos &amp; entire albums. You can protect the app itself or place locks on specific functions of the app. For example, you can’t delete a file without a fingerprint scan, helping to protect your files from accidental deletion.
-
-        <b>Check out the full suite of Simple Tools here:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

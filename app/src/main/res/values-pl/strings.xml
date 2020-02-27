@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Prosta Galeria</string>
+
+    <string name="app_name">Galeria</string>
     <string name="app_launcher_name">Galeria</string>
     <string name="edit">Edytuj</string>
     <string name="open_camera">Uruchom aplikację aparatu</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">Inne</string>                 <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">Tapeta</string>
+    <string name="wallpaper">Tapeta</string>
     <string name="set_as_wallpaper">Ustaw jako tapetę</string>
     <string name="set_as_wallpaper_failed">Ustawienie tapety nie powiodło się</string>
     <string name="set_as_wallpaper_with">Ustaw jako tapetę w:</string>
@@ -285,97 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Akwamaryna</string>
     <string name="pesdk_common_title_pipettableColor">Kolor pipety</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">Jak mogę ustawić tą aplikację jako domyślną aplikację galerii?</string>
-    <string name="faq_1_text">Znajdź obecną domyślną aplikację galerii w ustawieniach systemowych (sekcja \'Aplikacje\'). Na ekranie z informacjami o niej kliknij \'Otwórz domyślnie\', a następnie \'Wyczyść domyślne\'. Gdy podczas następnej próby otwarcia zdjęcia czy filmu system zapyta Cię jaką aplikacją to zrobić, wybierz Prostą Galerię i opcję zapamiętania tego wyboru.</string>
-    <string name="faq_2_title">Zablokowałem(-am) aplikację hasłem i wyleciało mi ono z głowy. Co mogę zrobić?</string>
-    <string name="faq_2_text">Masz dwie opcje: przeinstalowanie aplikacji lub wyczyszczenie jej ustawień. Niezależnie od wyboru, pliki pozostaną nienaruszone.</string>
-    <string name="faq_3_title">Jak sprawić, aby album(y) zawsze pojawiał(y) się na górze?</string>
-    <string name="faq_3_text">Przytrzymaj album(y) i wybierz ikonę przypięcia w pasku akcji.</string>
-    <string name="faq_4_title">Jak mogę przwijać filmy?</string>
-    <string name="faq_4_text">Możesz to osiągnąć dotykając dwa razu z boku ekranu, lub dotykając aktualnej lub makysmalnej długości tekstu przy pasku wyszukiwania. Jeśli włączysz w ustawieniach otwieranie video na nowym ekranie, możesz też używać gestów poziomych.</string>
-    <string name="faq_5_title">Jaka jest różnica między ukryciem, a wykluczeniem folderu?</string>
-    <string name="faq_5_text">Wykluczenie działa tylko w obrębie niniejszej aplikacji (wszędzie indziej pliki są normalnie widoczne), ukrywanie - w obrębie całego systemu (nie widać ich nigdzie), dodawany jest wtedy do folderu pusty plik \'.nomedia\', który możesz usunąć w dowolnym menedżerze plików.</string>
-    <string name="faq_6_title">Dlaczego pokazują mi się foldery z okładkami do piosenek i tym podobne rzeczy?</string>
-    <string name="faq_6_text">Aplikacja nie wie, czy dany obraz jest okładką od piosenki czy czymś innym. Aby ukryć niechciane rzeczy, przytrzymaj je i wybierz opcję \'Wyklucz\' z paska akcji.</string>
-    <string name="faq_7_title">Nie pokazuje(-ą) mi się folder(y) ze zdjęciami / filmami. Co mogę zrobić?</string>
-    <string name="faq_7_text">Wejdź do ustawień aplikacji i w sekcji z dołączonymi folderami dodaj tenże folder do listy.</string>
-    <string name="faq_8_title">Co jeśli chcę widzieć tylko wybrane foldery?</string>
-    <string name="faq_8_text">Przejdź do sekcji z wykluczonymi folderami w ustawieniach aplikacji, dodaj tam folder główny (\"/\"), a następnie dodaj pożądane foldery w sekcji z dołączonymi folderami.</string>
-    <string name="faq_10_title">Czy mogę w tej aplikacji przycinać obrazy?</string>
-    <string name="faq_10_text">Tak, możesz to zrobić w edytorze, przeciągając krawędzie obrazu. Edytor otworzysz przytrzymując miniaturę obrazu i wybierając opcję \'Edytuj\', bądź wybierając tą samą opcję w menu pełnoekranowym.</string>
-    <string name="faq_11_title">Czy mogę jakoś grupować miniatury plików?</string>
-    <string name="faq_11_text">Tak. Użyj opcji \'Grupuj według\', gdy jesteś w widoku miniatur. Grupować je możesz według wielu kryteriów, włącznie z datą ich utworzenia. Ponadto, jeśli użyjesz opcji \'Pokazuj całą zawartość folderów\', możesz je także grupować według folderów.</string>
-    <string name="faq_12_title">Sortowanie według daty utworzenia nie działa poprawnie. Dlaczego tak się dzieje i jak mogę to naprawić?</string>
-    <string name="faq_12_text">Dzieje się tak, gdyż prawdopodobnie pliki zostały skądś do urządzenia skopiowane. Naprawić to można wybierając miniatury plików, a następnie opcję \'Napraw datę utworzenia\'.</string>
-    <string name="faq_13_title">Na obrazach widzę wyraźne zmiany w kolorach. Jak mogę to naprawić?</string>
-    <string name="faq_13_text">Obecne rozwiązanie służące wyświetlaniu obrazów działa jak powinno w większości w przypadków. Jeśli jednak tak nie jest, pomocna może okazać się opcja \'Pokazuj obrazy w najwyższej możliwej jakości\' w sekcji \'Duże powiększanie obrazów\'.</string>
-    <string name="faq_14_title">Mam ukryte pliki i / lub foldery. Jak mogę zobaczyć?</string>
-    <string name="faq_14_text">Możesz to zrobić albo wybierając opcję \'Tymczasowo pokaż ukryte multimedia\' w menu na ekranie głównym, lub \'Pokazuj ukryte elementy\' w ustawieniach. Foldery są ukrywane poprzez dodanie do nich pustego, ukrytego pliku \'.nomedia\'. Usunąć go możesz dowolnym menedżerem plików.</string>
-    <string name="faq_15_title">Dlaczego aplikacja zajmuje tak dużo miejsca?</string>
-    <string name="faq_15_text">Pamięć podręczna aplikacji zajmuje do 250MB, zapewniając szybsze ładowanie obrazów. Aplikacja może zajmować więcej miejsca przez elementy w Koszu, które doliczane są do rozmiaru aplikacji. Wyczyść Kosz przez otwarcie go i usunięcie wszystkich elementów, lub z poziomu ustawień aplikacji. Każdy plik w Koszu jest też automatycznie usuwany po 30 dniach.</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Photo Manager &amp; Editor</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro to wysoce konfigurowalna galeria. Przeglądaj i edytuj swoje zdjęcia, dzięki funkcji kosza z łatwością odzyskuj przypadkowo (lub nie) ususnięte pliki, chroń je i ukrywaj dzięki różnym metodom zabezpieczeń. Nie martw się o obsługiwane formaty - wśród nich są m.in. RAW, SVG i wiele więcej.
-
-        Aplikacja nie zawiera reklam ani zezwoleń ponad te, których naprawdę potrzebuje. Nie musisz się także martwić o kwestie prywatności, gdyż nie potrzebuje ona dostępu do internetu.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FUNKCJE</b>
-        -------------------------------------------------
-
-        • Brak reklam i denerwujących okienek
-        • Edytor zdjęć, a w nim przycinanie, obracanie, zmienianie rozmiaru, rysowanie, filtry i wiele więcej
-        • Nie wymaga dostępu do internetu, przez co Twoje pliki są bezpieczne i widoczne tylko dla Ciebie
-        • Używane są tylko najpotrzebniejsze uprawnienia
-        • Szybkie wyszukiwanie plików
-        • Obsługa wielu formatów (RAW, SVG, panoramy, itd.)
-        • Różnorodność gestów dla prostszego korzystania z aplikacji
-        • Wiele sposobów na filtrowanie, grupowanie i sortowanie plików
-        • Wiele opcji dostosowywania wyglądu aplikacji
-        • Dostępna w 32 językach [ w tym po polsku :) ]
-        • Oznaczanie plików jako ulubione dla łatwiejszego do nich dostępu
-        • Ochrona wzorem, PINem, lub odciskiem palca dostępu do plików ...
-        • ... a nawet do całej aplikacji i/lub konkretnych jej funkcji
-        • Odzyskiwanie utraconych plików dzięki funkcji kosza
-        • Ukrywanie plików w obrębie aplikacji i/lub globalnie
-        • Tworzenie konfigurowalnych pokazów slajdów
-        • Szczegółowe informacje o plikach (rozdzielczość, dane EXIF, itd.)
-        • Aplikacja jest otwartoźródłowa
-        … i wiele więcej!
-
-        <b>EDYTOR ZDJĘĆ</b>
-        Simple Gallery Pro ułatwi Ci szybką edycję zdjęć. Przycinaj je, przewracaj, obracaj, zmniejszaj i powiększaj. A w napływie kreatywności dodawaj filtry i narysuj coś na nich!
-
-        <b>WSPARCIE DLA WIELU TYPÓW PLIKÓW</b>
-        W przeciwieństwie do niektórych aplikacji galerii, Simple Gallery Pro wspiera dużo formatów plików, w tym JPEG, PNG, MP4, MKV, RAW, SVG, panoramiczne filmy i zdjęcia oraz wiele więcej.
-
-        <b>WSZECHSTRONNOŚĆ</b>
-        Od interfejsu do przycisków funkcyjnych na dolnym pasku, Simple Gallery Pro jest wysoce konfigurowalny, przez co działa i wygląda tak jak chcesz. Żadna inna aplikacja galerii nie jest pod tym względem tak wszechstronna. A dzięki naszej otwartości to wszystko dostępne jest w 32 językach (w tym po polsku :]).
-
-        <b>ODZYSKIWANIE PLIKÓW</b>
-        Coś Ci się niechcący usunęło? A może ktoś to zrobił po złości? Żaden problem! Dzięki funkcji kosza z łatwością to odzyskasz.
-
-        <b>OCHRONA PLIKÓW</b>
-        Poprzez PIN, wzór lub odcisk palca możesz chronić swoje pliki, ukrywając je i blokując do nich dostęp. Tak samo możesz zablokować dostęp do całej aplikacji lub jej poszczególnych funkcji. Możesz na przykład uniemożliwić usuwanie plików bez zeskanowania linii papilarnych, przez co tylko Ty będziesz mógł to zrobić.
-
-        <b>Sprawdź cały zestaw naszych aplikacji:</b>
-        https://www.simplemobiletools.com
-
-        <b>Odwiedź nasz profil na Facebooku...</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>... i/lub naszego subreddita:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

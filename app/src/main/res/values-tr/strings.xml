@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Basit Galeri</string>
+
+    <string name="app_name">Galeri</string>
     <string name="app_launcher_name">Galeri</string>
     <string name="edit">Düzenle</string>
     <string name="open_camera">Kamerayı aç</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">Diğer</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">Basit Duvar Kağıdı</string>
+    <string name="wallpaper">Basit Duvar Kağıdı</string>
     <string name="set_as_wallpaper">Duvar kağıdı olarak ayarla</string>
     <string name="set_as_wallpaper_failed">Duvar kağıdı olarak ayarlanmadı</string>
     <string name="set_as_wallpaper_with">Şununla duvar kağıdı olarak ayarla:</string>
@@ -285,99 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Akuamarin</string>
     <string name="pesdk_common_title_pipettableColor">Pipetlenebilir renk</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">Basit Galeri\'yi nasıl varsayılan cihaz galerisi yapabilirim?</string>
-    <string name="faq_1_text">Önce cihaz ayarlarınızın Uygulamalar bölümünde varsayılan galeriyi bulmanız, \"Varsayılan olarak aç\" gibi bir şey söyleyen bir düğme aramanız, üzerine tıklamanız ve ardından \"Varsayılanları Temizle\"yi seçmeniz gerekir.
-        Gelecek sefer video veya resim açmayı denediğinizde, Basit Galeri\'yi seçip varsayılan uygulama haline getirebileceğiniz bir uygulama seçicisini görmelisiniz.</string>
-    <string name="faq_2_title">Uygulamayı bir şifre ile kilitledim ama unuttum. Ne yapabilirim?</string>
-    <string name="faq_2_text">Bunu 2 şekilde çözebilirsiniz. Uygulamayı yeniden yükleyebilir veya uygulamayı cihaz ayarlarınızdan bulabilir ve \"Verileri temizle\"yi seçebilirsiniz. Tüm ayarlarınızı sıfırlar, herhangi bir medya dosyasını kaldırmaz.</string>
-    <string name="faq_3_title">Bir albümün her zaman en üstte görünmesini nasıl sağlayabilirim?</string>
-    <string name="faq_3_text">İstediğiniz albüme uzunca basabilir ve eylem menüsündeki Sabitle simgesini seçebilirsiniz. Birden çok klasörü de sabitleyebilirsiniz, sabitlenmiş öğeler varsayılan sıralama yöntemine göre sıralanır.</string>
-    <string name="faq_4_title">Videoları nasıl hızlıca ileri sarabilirim?</string>
-    <string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-    <string name="faq_5_title">Klasörün gizlenmesi ve hariç tutulması arasındaki fark nedir?</string>
-    <string name="faq_5_text">Hariç tut, klasörü yalnızca Basit Galeri\'de görüntülemeyi engellerken, Gizle sistem genelinde çalışır ve klasörü diğer galerilerden de gizler. Verilen klasörde boş bir \".nomedia\" dosyası oluşturarak çalışır, daha sonra herhangi bir dosya yöneticisi ile kaldırabilirsiniz.</string>
-    <string name="faq_6_title">Neden albüm resimlerini içeren klasörler görünüyor?</string>
-    <string name="faq_6_text">Bazı olağandışı albümlerin ortaya çıktığını göreceksiniz. Onları uzun süre basarak ve Hariç tut\'u seçerek kolayca hariç tutabilirsiniz. Bir sonraki iletişim kutusunda, üst klasörü seçebilirsiniz, ancak diğer ilgili albümlerin de gösterilmesini önleyecektir.</string>
-    <string name="faq_7_title">Resimler içeren bir klasör görünmüyor, ne yapabilirim?</string>
-    <string name="faq_7_text">Bunun birden fazla nedeni olabilir, ancak bunu çözmek kolaydır. Sadece Ayarlar -> Dahil Edilen Klasörleri Yönet\'e gidin, Artı\'yı seçin ve gerekli klasöre gidin.</string>
-    <string name="faq_8_title">Sadece birkaç belirli klasörün görünmesini istersem ne olur?</string>
-    <string name="faq_8_text">Dahil Edilen Klasörler\'e bir klasör eklemek otomatik olarak hiçbir şeyi hariç tutmaz. Yapabilecekleriniz Ayarlar -> Hariç Tutulan Klasörleri Yönet, kök klasörü \"/\" hariç tut, ardından Ayarlar -> Dahil Edilen Klasörleri Yönet.
-        Bu, hem hariç tutulan hem de dahil edilen olmak üzere, yalnızca seçilen klasörleri görünür hale getirir ve bir klasör her ikisi de hariç tutulur ve dahil edilirse, görünür.</string>
-    <string name="faq_10_title">Bu uygulamayla görüntüleri kırpabilir miyim?</string>
-    <string name="faq_10_text">Evet, görüntü köşelerini sürükleyerek resimleri düzenleyicide kırpabilirsiniz. Düzenleyiciye, bir resim küçük resmine uzun basıp Düzenle\'yi seçerek veya tam ekran görünümünden Düzenle\'yi seçerek ulaşabilirsiniz.</string>
-    <string name="faq_11_title">Medya dosyası küçük resimlerini bir şekilde gruplayabilir miyim?</string>
-    <string name="faq_11_text">Elbette, küçük resimler görünümünde \"Gruplandırma\" menü öğesini kullanın. Çekildiği Tarih de dahil olmak üzere dosyaları birçok kritere göre gruplayabilirsiniz. \"Tüm klasörleri göster\" işlevini kullanırsanız, bunları klasörlere göre de gruplayabilirsiniz.</string>
-    <string name="faq_12_title">Çekildiği Tarihe Göre Sıralama düzgün çalışmıyor gibi görünüyor, nasıl düzeltebilirim?</string>
-    <string name="faq_12_text">Büyük olasılıkla bir yerden kopyalanan dosyalardan kaynaklanır. Dosya küçük resimlerini seçip \"Çekilen tarih değerini düzelt\" seçeneğini seçerek düzeltebilirsiniz.</string>
-    <string name="faq_13_title">Görüntülerde renk şeritleri görüyorum. Kaliteyi nasıl arttırabilirim?</string>
-    <string name="faq_13_text">Görüntüleri görüntülemek için geçerli çözüm, vakaların büyük çoğunluğunda iyi çalışır, ama daha iyi görüntü kalitesi istiyorsanız, \"Derin yakınlaştırılabilir resimler\" bölümündeki uygulama ayarlarında \"Resimleri mümkün olan en yüksek kalitede göster\" seçeneğini etkinleştirebilirsiniz.</string>
-    <string name="faq_14_title">Bir dosya/klasör gizledim. Nasıl gösterebilirim?</string>
-    <string name="faq_14_text">Ana ekranda \"Geçici olarak gizli öğeleri göster\" menü öğesine veya gizli öğeyi görmek için uygulama ayarlarında \"Gizli öğeleri göster\" seçeneğine tıklayabilirsiniz. Göstermek isterseniz, sadece uzun basın ve \"Göster\"i seçin. Klasörler gizlenmiş bir \".nomedia\" dosyası ekleyerek gizlenir, dosyayı herhangi bir dosya yöneticisi ile de silebilirsiniz.</string>
-    <string name="faq_15_title">Uygulama neden bu kadar yer kaplıyor?</string>
-    <string name="faq_15_text">Uygulama önbelleği 250 MB\'a kadar çıkabilir, daha hızlı resim yüklemesini sağlar. Uygulama daha da fazla yer kaplıyorsa, büyük olasılıkla Geri Dönüşüm Kutusu\'nda öğe bulundurmanızdan kaynaklanmaktadır. Bu dosyalar uygulama boyutuna göre sayılır. Geri Dönüşüm Kutusu\'nu açarak ve tüm dosyaları silerek ya da uygulama ayarlarından temizleyebilirsiniz. Geri dönüşümdeki her dosya 30 gün sonra otomatik olarak silinir.</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Basit Galeri Pro - Fotoğraf Yönetici, Düzenleyici</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Bu fotoğraf ve video galerisinde kesintisiz olarak anılarınıza göz atın</string>
-    <string name="app_long_description">
-        Basit Galeri Pro, özelleştirilebilir bir çevrimdışı galeridir. Fotoğraflarınızı düzenleyin ve organize edin, geri dönüşüm kutusuyla silinen dosyaları kurtarın, dosyaları koruyun ve gizleyin ve RAW, SVG ve çok daha fazlası dahil olmak üzere çok çeşitli fotoğraf ve video formatlarını görüntüleyin.
-
-        Uygulama hiçbir reklam ve gereksiz izinler içermez. Uygulama internet erişimi gerektirmediğinden gizliliğiniz de korunur.
-
-        -------------------------------------------------
-        <b>BASİT GALERİ PRO – ÖZELLİKLER</b>
-        -------------------------------------------------
-
-        • Reklamsız veya açılır penceresiz, çevrimdışı galeri
-        • Basit galeri fotoğraf editörü - kırpma, döndürme, yeniden boyutlandırma, çizim, filtreler ve daha fazlası
-        • İnternet erişimi gerekmez, size daha fazla gizlilik ve güvenlik sunar
-        • Gereksiz izinler gerekmez
-        • Resimleri, videoları ve dosyaları hızlıca arama
-        • Birçok farklı fotoğraf ve video türünü (RAW, SVG, panoramik vb.) açma ve görüntüleme
-        • Dosyaları kolayca düzenlemek ve organize etmek için çeşitli sezgisel hareketler
-        • Dosyaları filtrelemenin, gruplandırmanın ve sıralamanın birçok yolu
-        • Basit Galeri Pro\'nun görünümünü özelleştirme
-        • 32 dilde mevcut
-        • Hızlı erişim için dosyaları sık kullanılan olarak işaretleme
-        • Fotoğraflarınızı ve videolarınızı desen, pin veya parmak izi ile koruma
-        • Uygulama başlatılmasını veya belirli işlevleri de korumak için pin, desen ve parmak izi kullanma
-        • Silinen fotoğrafları ve videoları geri dönüşüm kutusundan kurtarma
-        • Fotoğrafları ve videoları gizlemek için dosyaların görünürlüğünü değiştirme
-        • Dosyalarınızın özelleştirilebilir bir slayt gösterisini oluşturma
-        • Dosyalarınızın ayrıntılı bilgilerini (çözünürlük, EXIF değerleri vb.) görüntüleme
-        • Basit Galeri Pro açık kaynak kodludur
-        … ve çok daha fazlası!
-
-        <b>FOTOĞRAF GALERİSİ EDİTÖRÜ</b>
-        Basit Galeri Pro, fotoğraflarınızı anında düzenlemenizi kolaylaştırır. Resimlerinizi kırpın, çevirin, döndürün ve yeniden boyutlandırın. Kendinizi biraz daha yaratıcı hissediyorsanız, filtre ekleyebilir ve resimlerinizi çizebilirsiniz!
-
-        <b>BİRÇOK DOSYA TÜRÜ İÇİN DESTEK</b>
-        Diğer galeri görüntüleyicilerinden ve fotoğraf düzenleyicilerinden farklı olarak, Basit Galeri Pro, JPEG, PNG, MP4, MKV, RAW, SVG, Panoramik fotoğraflar, Panoramik videolar ve daha pek çok farklı dosya türünü destekler.
-
-        <b>SON DERECE ÖZELLEŞTİRİLEBİLİR GALERİ YÖNETİCİSİ</b>
-        Kullanıcı arayüzünden alt araç çubuğundaki işlev düğmelerine kadar, Basit Galeri Pro oldukça özelleştirilebilirdir ve istediğiniz şekilde çalışır. Başka hiçbir galeri yöneticisi bu tür bir esnekliğe sahip değildir! Açık kaynak olması sayesinde 32 dilde de kullanıma hazırız!
-
-        <b>SİLİNEN FOTOĞRAFLARI VE VİDEOLARI KURTARIN</b>
-        Yanlışlıkla önemli bir fotoğrafı veya videoyu mu sildiniz? Endişelenmeyin! Basit Galeri Pro, silinmiş fotoğrafları ve videoları kolayca kurtarabileceğiniz kullanışlı bir geri dönüşüm kutusuna sahiptir.
-
-        <b>FOTOĞRAFLARI, VİDEOLARI VE DOSYALARI KORUYUN VE GİZLEYİN</b>
-        Pin, desen veya cihazınızın parmak izi tarayıcısını kullanarak fotoğrafları, videoları ve albümün tamamını koruyabilir ve gizleyebilirsiniz. Uygulamanın kendisini koruyabilir veya uygulamanın belirli işlevlerine kilitler yerleştirebilirsiniz. Örneğin, parmak izi taraması olmadan bir dosyayı silemez ve dosyalarınızı yanlışlıkla silmeye karşı korumaya yardımcı olabilirsiniz.
-
-        <b>Tüm Basit Araçlar paketini buradan inceleyin:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

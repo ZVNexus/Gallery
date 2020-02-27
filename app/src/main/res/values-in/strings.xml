@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple Gallery</string>
+
+    <string name="app_name">Gallery</string>
     <string name="app_launcher_name">Galeri</string>
     <string name="edit">Sunting</string>
     <string name="open_camera">Buka kamera</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">Lainnya</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">Simple Wallpaper</string>
+    <string name="wallpaper">Wallpaper</string>
     <string name="set_as_wallpaper">Setel sebagai Wallpaper</string>
     <string name="set_as_wallpaper_failed">Gagal menyetel sebagai Wallpaper</string>
     <string name="set_as_wallpaper_with">Setel sebagai Wallpaper dengan:</string>
@@ -285,99 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Aquamarin</string>
     <string name="pesdk_common_title_pipettableColor">Pipettable color</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">Bagaimana cara menjadikan Simple Gallery sebagai aplikasi galeri default?</string>
-    <string name="faq_1_text">Pertama anda harus menemukan galeri default saat ini di bagian Aplikasi di Pengaturan perangkat, cari tombol dengan label seperti \"Buka secara default\", klik, lalu pilih \"Hapus default\".
-        Lain kali anda mencoba membuka gambar atau video, anda akan diminta memilih aplikasi, dan anda bisa memilih Simple Gallery dan menjadikannya default.</string>
-    <string name="faq_2_title">Saya mengunci aplikasi dengan sandi, tapi saya lupa. Apa yang harus dilakukan?</string>
-    <string name="faq_2_text">Anda bisa menyelesaikannya dengan 2 cara. Anda bisa pasang ulang aplikasi, atau cari aplikasi ini di Pengaturan perangkat dan pilih \"Hapus data\". Ini akan menyetel ulang semua pengaturan anda, dan tidak akan menghapus berkas media apapun.</string>
-    <string name="faq_3_title">Bagaimana agar album selalu muncul paling atas di dalam daftar?</string>
-    <string name="faq_3_text">Anda bisa menekan lama album tersebut dan pilih ikon Pin di menu tindakan, hal tersebut akan membuat album tetap berada di bagian paling atas daftar. Anda juga bisa menyematkan beberapa folder, item yang di-pin akan diurutkan berdasarkan metode urutan default.</string>
-    <string name="faq_4_title">Bagaimana cara mempercepat laju video?</string>
-    <string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-    <string name="faq_5_title">Apa perbedaan antara menyembunyikan dan mengecualikan folder?</string>
-    <string name="faq_5_text">Mengecualikan tidak akan menampilkan folder di Simple Gallery saja, sedangkan Sembunyikan bekerja sesuai aturan sistem dan akan menyembunyikan folder dari aplikasi galeri yang lain. Cara kerjanya dengan membuat berkas \".nomedia\" kosong pada folder yang diinginkan, yang bisa anda hapus juga dengan aplikasi pengelola berkas.</string>
-    <string name="faq_6_title">Mengapa folder dengan gambar album musik atau stiker muncul?</string>
-    <string name="faq_6_text">Kadang anda melihat beberapa album yang tidak biasa muncul. Anda bisa dengan mudah menyembunyikannya dengan menekan lama dan pilih Kecualikan. Pada dialog berikutnya, anda lalu bisa memilih folder induk, yang akan mencegah album terkait muncul kembali.</string>
-    <string name="faq_7_title">Ada folder berisi gambar namun tidak muncul, apa yang harus dilakukan?</string>
-    <string name="faq_7_text">Itu bisa disebabkan berbagai alasan, namun solusinya mudah. Pergi ke Pengaturan -> Atur folder yang disertakan, pilih Tambah dan cari folder yang diinginkan.</string>
-    <string name="faq_8_title">Bagaimana jika saya hanya ingin beberapa folder saja yang terlihat?</string>
-    <string name="faq_8_text">Menambahkan folder di Folder yang Disertakan tidak otomatis mengecualikan folder yang lain. Yang bisa anda lakukan adalah pergi ke Pengaturan -> Atur Folder yang Dikecualikan, lalu kecualikan folder root \"/\", lalu tambahkan folder yang diinginkan di Pengaturan -> Atur Folder yang Disertakan.
-        Itu akan membuat folder yang dipilih saja yang muncul, dan jika sebuah folder disertakan dan dikecualikan secara bersamaan, folder tersebut akan muncul.</string>
-    <string name="faq_10_title">Bisakah saya memangkas gambar dengan aplikasi ini?</string>
-    <string name="faq_10_text">Ya, anda bisa melakukannya di Penyunting, dengan menyeret sudut gambar. Anda bisa masuk ke penyunting dengan menekan lama thumbnail gambar dan memilih Sunting, atau pilih Sunting dari tampilan layar penuh.</string>
-    <string name="faq_11_title">Bisakah saya mengelompokkan thumbnail berkas media?</string>
-    <string name="faq_11_text">Bisa, gunakan menu \"Kelompokkan menurut\" pada tampilan thumbnail. Anda bisa mengelompokkan berkas dengan berbagai kriteria, termasuk Tanggal Diambil. Jika anda menggunakan fungsi \"Tampilkan semua isi folder\", anda juga bisa mengelompokkan berdasarkan foldernya.</string>
-    <string name="faq_12_title">Tidak bisa mengurutkan berdasarkan Tanggal Diambil, bagaimana cara memperbaikinya?</string>
-    <string name="faq_12_text">Itu umumnya disebabkan karena berkas yang disalin dari tempat lain. Anda bisa memperbaikinya dengan memilih berkas thumbnail dan pilih \"Perbaiki Tanggal Diambil\".</string>
-    <string name="faq_13_title">Saya melihat beberapa pita warna pada gambar. Bagaimana saya meningkatkan kualitasnya?</string>
-    <string name="faq_13_text">Solusi saat ini untuk menampilkan gambar berfungsi dengan baik dalam sebagian besar kasus, namun jika anda ingin kualitas gambar yang lebih baik, anda bisa mengaktifkan \"Tampilkan gambar dalam kualitas tertinggi\" di pengaturan aplikasi, pada bagian \"Zum gambar mendalam\".</string>
-    <string name="faq_14_title">Saya punya berkas/folder tersembunyi. Bagaimana cara memunculkannya?</string>
-    <string name="faq_14_text">Anda bisa memilih menu \"Tampilkan sementara berkas tersembunyi\" di layar utama, atau \"Tampilkan berkas tersembunyi\" di pengaturan aplikasi untuk menampilkannya. Jika anda tidak ingin menyembunyikannya, tekan lama dan pilih \"Jangan sembunyikan\". Folder disembunyikan dengan menambahkan berkas \".nomedia\" di dalamnya, anda bisa menghapus berkas tersebut dengan aplikasi pengelola berkas.</string>
-    <string name="faq_15_title">Kenapa aplikasi menggunakan sangat banyak ruang kosong?</string>
-    <string name="faq_15_text">Cache aplikasi bisa mencapai 250MB, ini untuk menjamin pemuatan gambar yang lebih cepat. Jika aplikasi menggunakan lebih banyak lagi ruang kosong, sangat memungkinkan anda memiliki item di dalam Keranjang Sampah. Berkas tersebut akan menambah ukuran aplikasi. Anda bisa mengosongkan Keranjang sampah dengan cara membukanya dan menghapus semua berkas, atau dari pengaturan aplikasi. Semua berkas di dalam keranjang sampah akan otomatis dihapus setelah 30 hari.</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Simple Gallery Pro - Pengelola &amp; Penyunting Foto</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Simple Gallery Pro adalah aplikasi galeri luring yang sangat mudah diubahsuai. Mengelola &amp; menyunting foto anda, memulihkan berkas yang terhapus dari keranjang sampah, melindungi &amp; menyembunyikan berkas, dan menampilkan banyak format foto &amp; video, diantaranya RAW, SVG dan masih banyak lainnya.
-
-        Aplikasi sama sekali tidak berisi iklan dan tidak membutuhkan perizinan yang tidak perlu. Dan karena aplikasi juga tidak membutuhkan akses internet, privasi anda terlindungi.
-
-        -------------------------------------------------
-        <b>SIMPLE GALLERY PRO – FITUR</b>
-        -------------------------------------------------
-
-        • Galeri luring tanpa iklan dan popup
-        • Penyunting galeri foto sederhana – pangkas, putar, ubah ukuran, gambar, filter &amp; masih banyak lagi
-        • Tidak membutuhkan akses internet, memberi anda jaminan keamanan dan privasi
-        • Tidak membutuhkan izin yang tidak diperlukan
-        • Cepat mencari gambar, video &amp; berkas
-        • Buka &amp; lihat berbagai macam jenis foto dan video (RAW, SVG, panorama, dll)
-        • Gestur untuk mempermudah penyuntingan &amp; mengelola berkas
-        • Banyak cara untuk menambahkan filter, mengelompokkan &amp; mengurutkan berkas
-        • Sesuaikan tampilan Simple Gallery Pro
-        • Tersedia dalam 32 bahasa
-        • Tandai berkas sebagai favorit untuk akses cepat
-        • Lindungi foto &amp; video anda dengan pola, pin atau sidik jari
-        • Gunakan pin, pattern &amp; sidik jari untuk mencegah aplikasi dibuka
-        • Pulihkan foto &amp; video yang dihapus dari keranjang sampah
-        • Ubah visibilitas berkas untuk menyembunyikan foto &amp; video
-        • Buat slideshow khusus dari berkas anda
-        • Lihat informasi detail berkas (resolusi, EXIF, dll)
-        • Simple Gallery Pro bersumber terbuka
-        … dan masih banyak lagi!
-
-        <b>PENYUNTING GALERI FOTO</b>
-        Simple Gallery Pro mempermudah anda menyunting foto. Pangkas, balik, putar dan ubah ukuran gambar anda. Jika anda merasa kreatif anda bisa menambahkan filter dan menggambar pada foto anda!
-
-        <b>MENDUKUNG BANYAK TIPE BERKAS</b>
-        Tidak seperti penampil galeri &amp; pengelola foto lainnya, Simple Gallery Pro mendukung sangat banyak tipe berkas yang berbeda diantaranya JPEG, PNG, MP4, MKV, RAW, SVG, foto &amp; video Panorama, dan masih banyak lagi.
-
-        <b>PENGELOLA GALERI YANG MUDAH DISESUAIKAN</b>
-        Dari UI sampai tombol tindakan pada bilah perkakas bawah, Simple Gallery Pro sangat mudah disesuaikan dengan keinginan anda. Tidak ada galeri lainnya yang memiliki kemampuan seperti ini! Karena bersumber terbuka, tersedia juga dalam 32 bahasa!
-
-        <b>PULIHKAN FOTO &amp; VIDEO YANG TERHAPUS</b>
-        Secara tidak sengaja menghapus foto atau video? Jangan khawatir! Simple Gallery Pro juga menyertakan fitur Keranjang Sampah yang mempermudah anda memulihkan foto &amp; video yang terhapus.
-
-        <b>MELINDUNGI &amp; MENYEMBUNYIKAN FOTO, VIDEO &amp; BERKAS</b>
-        Menggunakan pin, pola atau pemindai sidik jari perangkat, anda bisa melindungi dan menyembunyikan foto, video &amp; seluruh album. Anda bisa melindungi aplikasinya atau mengunci fungsi-fungsi yang lebih spesifik di dalam aplikasi. Contohnya, anda tidak bisa menghapus berkas tanpa memindai sidik jari, membantu melindungi anda menghapus berkas secara tidak sengaja.
-
-        <b>Lihat semua aplikasi Simple Tools di sini:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>

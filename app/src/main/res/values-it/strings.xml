@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Semplice Galleria</string>
+
+    <string name="app_name">Galleria</string>
     <string name="app_launcher_name">Galleria</string>
     <string name="edit">Modifica</string>
     <string name="open_camera">Apri fotocamera</string>
@@ -99,7 +100,7 @@
     <string name="other_aspect_ratio">Altro</string>                <!-- available as an option: 1:1, 4:3, 16:9, free, other -->
 
     <!-- Set wallpaper -->
-    <string name="simple_wallpaper">Sfondo semplice</string>
+    <string name="wallpaper">Sfondo semplice</string>
     <string name="set_as_wallpaper">Imposta come sfondo</string>
     <string name="set_as_wallpaper_failed">Impostazione sfondo non riuscita</string>
     <string name="set_as_wallpaper_with">Imposta come sfondo con:</string>
@@ -285,98 +286,4 @@
     <string name="pesdk_common_title_aquamarinColor">Acquamarina</string>
     <string name="pesdk_common_title_pipettableColor">Colore pipettabile</string>
 
-    <!-- FAQ -->
-    <string name="faq_1_title">Come posso impostare Semplice Galleria come la galleria predefinita del dispositivo?</string>
-    <string name="faq_1_text">Si deve prima trovare l\'attuale galleria predefinita nella sezione App delle impostazioni di sistema, cercare un pulsante che dice qualcosa come \"App predefinite\", cliccarlo e poi selezionare \"Ripristina predefiniti\".
-        La prossima volta che proverai ad aprire un\'immagine o video si dovrebbe vedere un selettore di app, dove si può scegliere Semplice Galleria e renderla l\'app predefinita.</string>
-    <string name="faq_2_title">Ho bloccato l\'app con una password, ma l\'ho dimenticata. Cosa posso fare?</string>
-    <string name="faq_2_text">Si può risolvere in 2 modi: reinstallare l\'app, oppure trovare l\'app nelle impostazioni del dispositivo e seleziona \"Cancella dati\". Tutte le impostazioni verranno ripristinate, nessun file verrà rimosso.</string>
-    <string name="faq_3_title">Come posso fare apparire un album sempre in cima?</string>
-    <string name="faq_3_text">Si può toccare a lungo l\'album desiderato e selezionare l\'icona puntina nel menù azioni, ciò lo fisserà in cima. Si possono anche fissare varie cartelle, gli elementi fissati saranno ordinati dal metodo di ordinamento predefinito.</string>
-    <string name="faq_4_title">Come avanzo velocemente nei video?</string>
-    <string name="faq_4_text">You can do it by double tapping the side of the screen, or tapping the current or max duration texts near the seekbar. If you enable opening videos on a separate screen in the app settings, you can use horizontal gestures too.</string>
-    <string name="faq_5_title">Che differenza c\'è tra nascondere ed escludere una cartella?</string>
-    <string name="faq_5_text">Escludere impedisce la visualizzazione della cartella solo in Semplice Galleria, mentre nascondere ha effetto in tutto il sistema e nasconde la cartella anche alle altre gallerie. Funziona creando un file vuoto \".nomedia\" nella cartella in questione, si possono anche rimuovere successivamente con qualsiasi gestore dei file.</string>
-    <string name="faq_6_title">Perchè vengono mostrate cartelle con copertine o adesivi di musica?</string>
-    <string name="faq_6_text">Può succedere che si vedano apparire alcuni album insoliti. Si possono escluderli facilmente toccandoli a lungo e selezionando Escludi. Nella finestra successiva si possono quindi selezionare la cartella superiore, con la possibilità di impedire la visualizzazione anche di altri album correlati.</string>
-    <string name="faq_7_title">Una cartella con immagini non viene mostrata, cosa posso fare?</string>
-    <string name="faq_7_text">Può succedere per vari motivi, ma la soluzione è semplice. Vai in Impostazioni -> Gestisci le cartelle incluse, tocca il tasto Più e naviga verso la cartella desiderata.</string>
-    <string name="faq_8_title">Che fare se voglio rendere visibili solo poche particolari cartelle?</string>
-    <string name="faq_8_text">Aggiungere una cartella nelle Cartelle Incluse non esclude automaticamente nulla. Quello che puoi fare è andare in Impostazioni → Gestisci le cartelle escluse, escludi la cartella root \"/\", poi aggiungi le cartelle desiderate in Impostazioni → Gestisci le cartelle incluse.
-        Ciò renderà visibili solo le cartelle selezionate, dato che sia l\'esclusione che l\'inclusione sono ricorsive e se una cartella è sia esclusa che inclusa, verrà mostrata.</string>
-    <string name="faq_10_title">Posso ritagliare le immagini con questa app?</string>
-    <string name="faq_10_text">Sì, si possono ritagliare le immagini nell\'editor, trascinando gli angoli dell\'immagine. Si può accedere all\'editor sia premendo a lungo la miniatura di un\'immagine e selezionando Modifica, oppure selezionando Modifica mentre si vede una foto a schermo intero.</string>
-    <string name="faq_11_title">Posso raggruppare in qualche modo le miniature dei file?</string>
-    <string name="faq_11_text">Certo, si può usare il menu \"Raggruppa per\" mentre si visualizzano le miniature. Il raggruppamento può avvenire per diversi criteri, incluso la data di creazione. Se si utilizza la funzione \"Mostra tutti i contenuti\" si può anche raggrupparli per cartelle.</string>
-    <string name="faq_12_title">L\'ordinamento per data acquisizione sembra non funzionare bene, come posso risolvere?</string>
-    <string name="faq_12_text">Probabilmente è causato dai file copiati da altre parti. Si può risolvere selezionando le miniature dei file e scegliendo \"Correggi valore Data acquisizione\".</string>
-    <string name="faq_13_title">Vedo curvature di colore nelle immagini. Come posso migliorarne la qualità?</string>
-    <string name="faq_13_text">L\'attuale soluzione per visualizzare immagini funziona bene nella maggior parte dei casi, ma se si vuole una qualità ancora maggiore, si può attivare \"Mostra le immagini alla massima qualità possibile\" nelle impostazioni dell\'app, nella sezione \"Immagini ingrandibili a fondo\".</string>
-    <string name="faq_14_title">Ho nascosto un file/una cartella. Come posso mostrarlo/a di nuovo?</string>
-    <string name="faq_14_text">Si può premere \"Mostra temporaneamente nascosti\" nel menu della schermata principale, oppure attivare \"Mostra gli elementi nascosti\" nelle impostazioni dell\'app per vedere l\'elemento nascosto. Per farla rimanere visibile, premere a lungo e selezionare \"Non nascondere\". Le cartelle vengono nascoste aggiungendo un file nascosto \".nomedia\" all\'interno di esse, si può eliminare il file con qualsiasi gestore di file.</string>
-    <string name="faq_15_title">Perchè l\'app occupa così tanto spazio?</string>
-    <string name="faq_15_text">La cache dell\'app può occupare massimo 250MB, serve per veloccizare il caricamento delle immagini. Se l\'app sta prendendo sempre più spazio, molto probabilmente è causato dagli elementi nel Cestino. Questi file contano nella dimensione dell\'app. Puoi svuotare il Cestino aprendolo ed eliminando tutti i file, oppure andando nelle impostazioni dell\'app. Ogni file nel Cestino viene eliminato automaticamente dopo 30 giorni.</string>
-
-    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
-    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
-    <string name="app_title">Semplice Galleria Pro - gestore di foto &amp; editor</string>
-    <!-- Short description has to have less than 80 chars -->
-    <string name="app_short_description">Browse your memories without any interruptions with this photo and video gallery</string>
-    <string name="app_long_description">
-        Semplice Galleria Pro è una galleria offline altamente personalizzabile. Organizza, modifica le tue foto, recupera file con il cestino, progetti e nascondi file e visualizza una grande varietà di formati foto e video, inclusi RAW, SVG e molti altri.
-
-        L\'app non contiene pubblicità o permessi non necessari. L\'app non richiede l\'accesso a Internet, la tua privacy è protetta.
-
-        -------------------------------------------------
-        <b>SEMPLICE GALLERIA PRO – FUNZIONALITÀ </b>
-        -------------------------------------------------
-
-        • Galleria offline senza pubblicità o popup
-        • Semplice editor - ritaglia, ruota, ridimensiona, disegna, filtri e altro
-        • Non è necessario alcun accesso Internet, per la tua privacy e sicurezza
-        • Non sono necessari permessi
-        • Cerca velocemente immagini, video e file
-        • Apri e visualizza diversi tipi di foto e video (RAW, SVG, panoramica etc.)
-        • Una varietà di gesti intuitivi per modificare e organizzare i file
-        • Diversi modi per filtrare, raggruppare e ordinare i file
-        • Personalizza l\'aspetto di Semplice Galleria Pro
-        • Disponibile in 32 lingue
-        • Segna file come preferiti per un accesso veloce
-        • Proteggi le tue foto e video con una sequenza, pin o impronta digitale
-        • Utilizza un pin, una sequenza o un\'impronta digitale per proteggere l\'app o specifiche funzioni
-        • Recupera foto e video eliminati dal cestino
-        • Alterna la visibilità dei file per nascondere foto e video
-        • Crea una presentazione personalizzabile dei propri file
-        • Visualizza informazioni dettagliate dei tuoi file (risoluzione, valori EXIF)
-        • Semplice Galleria Pro è open source
-        … e molto molto altro!
-
-        <b>EDITOR DI FOTO</b>
-        Semplice Galleria Pro permette di modificare facilmente le proprie foto al volo. Ritaglia, rovescia e ridimensiona le tue foto. Se ti senti più creativo puoi aggiungere filtri o disegnare sulle tue foto!
-
-        <b>SUPPORTO PER MOLTI TIPI DI FILE</b>
-        A differenza di altre gallerie e organizzatori di foto, Semplice Galleria Pro supporta una grande gamma di tipi di file differenti: JPEG, PNG, MP4, MKV, RAW, SVG, foto e video panoramici e molto altri.
-
-        <b>GESTORE DELLA GALLERIA ALTAMENTE MODIFICABILE</b>
-        Semplice Galleria Pro è altamente personalizzabile e funziona come vuoi te, dall\'interfaccia ai pulsanti di funzione sulla barra degli strumenti. Nessun altro gestore della galleria ha questa tipologia di flessibilità! Grazie all\'essere open source, siamo disponibili in 32 linguaggi!
-
-        <b>RECUPERA FOTO E VIDEO ELIMINATI</b>
-        Hai accidentalmente eliminato foto o video preziosi? Non preoccuparti! Semplice Galleria Pro fornisce un comodo cestino dove puoi recuperare foto e video eliminati.
-
-        <b>PROTEGGI E NASCONDI FOTO VIDEO E FILE</b>
-        Utilizzando un pin, una sequenza o la propria impronta digitale puoi proteggere e nascondere foto, video e interi album. Puoi proteggere l\'intera app o bloccare specifiche funzionalità dell\'app. Per esempio, non puoi eliminare un file senza una scansione dell\'impronta, aiuta a proteggere i tuoi file da rimozioni accidentali.
-
-        <b>Controlla le altre applicazioni qui:</b>
-        https://www.simplemobiletools.com
-
-        <b>Facebook:</b>
-        https://www.facebook.com/simplemobiletools
-
-        <b>Reddit:</b>
-        https://www.reddit.com/r/SimpleMobileTools
-    </string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
-    -->
 </resources>
