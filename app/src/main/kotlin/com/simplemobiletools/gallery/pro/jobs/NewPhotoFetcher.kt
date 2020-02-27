@@ -54,7 +54,7 @@ class NewPhotoFetcher : JobService() {
 
     fun isScheduled(context: Context): Boolean {
         val jobScheduler = context.getSystemService(JobScheduler::class.java)
-        val jobs = jobScheduler.allPendingJobs ?: return false
+        val jobs = jobScheduler.allPendingJobs
         return jobs.any { it.id == PHOTO_VIDEO_CONTENT_JOB }
     }
 
